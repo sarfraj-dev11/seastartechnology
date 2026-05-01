@@ -18,7 +18,7 @@ function products_url($slug = '') {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo isset($page_title) ? $page_title . ' | ' . SITE_NAME : SITE_NAME . ' — ' . SITE_TAGLINE; ?></title>
-  <meta name="description" content="<?php echo isset($page_desc) ? $page_desc : 'MyComputerCare is an authorized US reseller of trusted computer security software, hardware, and accessories. Every purchase includes 24/7 post-sale technician assistance.'; ?>">
+  <meta name="description" content="<?php echo isset($page_desc) ? $page_desc : 'seastartechnology is an authorized US reseller of trusted computer security software, hardware, and accessories. Every purchase includes 24/7 post-sale technician assistance.'; ?>">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo SITE_URL . '/' . basename($_SERVER['PHP_SELF']); ?>">
   <link rel="icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
@@ -59,11 +59,11 @@ function products_url($slug = '') {
   <div class="container header-inner">
     <a href="<?php echo isset($depth) ? $depth : ''; ?>index.php" class="logo">
       <div class="logo-icon">
-        <img src="../assets/images/icons/MyComputerCare logo.png" alt="MyComputerCare Logo">
+        <img src="assets/images/icons/seastartechnology-logo.png" alt="seastartechnology Logo">
         <!-- <i class="fas fa-laptop-medical"></i> -->
     </div>
       <!-- <div class="logo-text">
-        <span class="logo-name">MyComputerCare</span>
+        <span class="logo-name">seastartechnology</span>
         <span class="logo-tag">Authorized Reseller</span>
       </div> -->
     </a>

@@ -1,11 +1,11 @@
 <?php
 // db.php — Database connection stub
-// MyComputerCare currently uses flat-file (products.json).
+// seastartechnology currently uses flat-file (products.json).
 // Uncomment and configure below when ready to migrate to MySQL.
 
 /*
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'mycomputercare');
+define('DB_NAME', 'seastartechnology');
 define('DB_USER', 'root');
 define('DB_PASS', '');
 define('DB_CHARSET', 'utf8mb4');

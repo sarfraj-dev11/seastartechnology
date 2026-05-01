@@ -20,7 +20,7 @@ if (!empty($_SESSION['mcc_admin'])) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Admin Login — MyComputerCare</title>
+  <title>Admin Login — seastartechnology</title>
   <meta name="robots" content="noindex,nofollow">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -33,7 +33,7 @@ if (!empty($_SESSION['mcc_admin'])) {
     <div class="admin-login-logo">
       <div class="icon"><i class="fas fa-laptop-medical"></i></div>
       <div>
-        <div class="name">MyComputerCare</div>
+        <div class="name">seastartechnology</div>
         <div class="sub">Admin Panel</div>
       </div>
     </div>

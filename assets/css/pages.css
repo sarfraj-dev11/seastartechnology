@@ -1,0 +1,306 @@
+/* pages.css — About · Contact · Forms · Policy Pages */
+
+/* ── About Page ── */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-content .section-badge { margin-bottom: .7rem }
+
+.about-content p {
+  color: var(--text-2);
+  margin-bottom: .95rem;
+  line-height: 1.78;
+  font-size: .945rem;
+}
+
+.about-stats {
+  display: flex;
+  gap: 0;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  background: #fff;
+}
+
+.stat-item {
+  flex: 1;
+  min-width: 90px;
+  text-align: center;
+  padding: 1.25rem .75rem;
+  border-right: 1px solid var(--border);
+}
+
+.stat-item:last-child { border-right: none }
+
+.stat-num {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: var(--font-h);
+  color: var(--primary);
+}
+
+.stat-label {
+  font-size: .72rem;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-top: .2rem;
+}
+
+.about-card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .9rem;
+}
+
+.about-icon-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 1.5rem;
+  text-align: center;
+  transition: var(--t);
+}
+
+.about-icon-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+  border-color: #b2c2bf;
+}
+
+.about-icon-card i {
+  font-size: 1.65rem;
+  color: var(--primary);
+  margin-bottom: .55rem;
+  display: block;
+}
+
+.about-icon-card span { font-size: .84rem; font-weight: 600; color: var(--text) }
+
+/* ── Contact Page ── */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1.45fr 1fr;
+  gap: 2.75rem;
+  align-items: start;
+}
+
+.contact-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--r-xl);
+  padding: 2.25rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.contact-card h2 { font-size: 1.45rem; margin-bottom: .32rem }
+
+.form-subtext {
+  color: var(--text-2);
+  font-size: .855rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info-col {
+  display: flex;
+  flex-direction: column;
+  gap: .9rem;
+}
+
+.contact-info-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 1.15rem 1.25rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.contact-info-card h3 {
+  font-size: .875rem;
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+  margin-bottom: .45rem;
+}
+
+.contact-info-card h3 i { color: var(--primary) }
+.contact-info-card p { font-size: .845rem; color: var(--text-2); line-height: 1.62 }
+
+.contact-link-lg {
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: .3rem;
+}
+
+.contact-link-lg:hover { color: var(--primary-h) }
+
+.help-anchor {
+  border-color: #b2c2bf;
+  background: #c0ded9;
+}
+
+.help-anchor h3 { color: var(--primary) }
+
+.map-placeholder {
+  height: 235px;
+  background: var(--bg-alt);
+  border-top: 1px solid var(--border-lt);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-3);
+}
+
+.map-placeholder-inner { text-align: center, }
+.map-placeholder-inner i { font-size: 2.25rem; margin-bottom: .45rem; display: block }
+.map-placeholder-inner p { font-size: .82rem }
+
+/* ── Forms ── */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: .38rem;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--text-2);
+}
+
+.form-group .req { color: #DC2626 }
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  color: var(--text);
+  font-family: var(--font-b);
+  font-size: .885rem;
+  padding: .6rem .88rem;
+  width: 100%;
+  transition: var(--t);
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--primary-l);
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(24,160,90,.12);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 115px;
+  line-height: 1.6;
+}
+
+.form-group select option { background: #fff; color: var(--text) }
+
+.form-alert {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  padding: .8rem .95rem;
+  border-radius: var(--r-sm);
+  margin-bottom: 1rem;
+  font-size: .855rem;
+}
+
+.form-alert--success {
+  background: var(--success-bg);
+  border: 1px solid #B7E1C6;
+  color: #1A5C36;
+}
+
+.form-alert--error {
+  background: #FEE2E2;
+  border: 1px solid #FECACA;
+  color: #991B1B;
+}
+
+/* ── Policy Pages ── */
+.policy-section { background: var(--bg) }
+
+.policy-content { max-width: 820px; margin: 0 auto }
+
+.policy-content p {
+  color: var(--text-2);
+  margin-bottom: 1.05rem;
+  line-height: 1.82;
+  font-size: .94rem;
+}
+
+.policy-content h2 {
+  font-size: 1.18rem;
+  color: var(--text);
+  margin: 2rem 0 .6rem;
+  padding-bottom: .38rem;
+  border-bottom: 2px solid var(--border-lt);
+}
+
+.policy-content ul,
+.policy-content ol {
+  margin: .5rem 0 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .45rem;
+}
+
+.policy-content li {
+  color: var(--text-2);
+  font-size: .9rem;
+  line-height: 1.7;
+  padding-left: .45rem;
+}
+
+.policy-content ul li { list-style: disc }
+.policy-content ol li { list-style: decimal }
+.policy-content a    { color: var(--primary-l) }
+.policy-content strong { color: var(--text) }
+
+.policy-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.25rem;
+  font-size: .875rem;
+}
+.policy-table th,
+.policy-table td {
+  text-align: left;
+  padding: .6rem .85rem;
+  border: 1px solid var(--border);
+  color: var(--text-2);
+  line-height: 1.5;
+}
+.policy-table thead th {
+  background: var(--success-bg);
+  color: var(--text);
+  font-weight: 700;
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.policy-table tbody tr:nth-child(even) { background: var(--bg) }

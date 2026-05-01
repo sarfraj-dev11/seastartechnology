@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /data/
+
+Sitemap: https://www.mycomputercare.com/sitemap.xml

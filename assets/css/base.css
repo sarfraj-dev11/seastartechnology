@@ -1,0 +1,194 @@
+/* base.css — Variables · Reset · Typography · Buttons · Utilities */
+
+:root {
+  --bg:        #eaece5;
+  --bg-alt:    #ffffff;
+  --surface:   #ffffff;
+  --card:      #ffffff;
+  --border:    #b2c2bf;
+  --border-lt: #d4dedd;
+
+  --primary:   #3b3a30;
+  --primary-h: #252520;
+  --primary-l: #c0ded9;
+  --accent:    #8fa8a3;
+
+  --success:   #3b3a30;
+  --success-bg:#eaece5;
+  --warn:      #7a6830;
+  --warn-bg:   #f5f0dc;
+
+  --text:      #3b3a30;
+  --text-2:    #5c5b50;
+  --text-3:    #8c8b7c;
+
+  --font-h: 'Outfit', sans-serif;
+  --font-b: 'Inter', sans-serif;
+
+  --r-sm: 5px;
+  --r-md: 9px;
+  --r-lg: 14px;
+  --r-xl: 20px;
+
+  --shadow-sm: 0 1px 4px rgba(59,58,48,.07), 0 2px 10px rgba(59,58,48,.05);
+  --shadow:    0 4px 18px rgba(59,58,48,.10), 0 1px 4px rgba(59,58,48,.06);
+  --shadow-lg: 0 10px 40px rgba(59,58,48,.13), 0 2px 8px rgba(59,58,48,.07);
+
+  --t: .22s ease;
+  --max-w: 1200px;
+}
+
+*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0 }
+html { scroll-behavior: smooth }
+
+body {
+  font-family: var(--font-b);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+body.nav-open { overflow: hidden }
+
+a { color: var(--primary-l); text-decoration: none; transition: var(--t) }
+a:hover { color: var(--primary) }
+
+img { max-width: 100%; height: auto; display: block }
+ul, ol { list-style: none }
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-h);
+  font-weight: 700;
+  line-height: 1.22;
+  color: var(--text);
+}
+
+.container {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ── Buttons ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  font-family: var(--font-b);
+  font-weight: 600;
+  font-size: .875rem;
+  padding: .6rem 1.4rem;
+  border-radius: var(--r-sm);
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: var(--t);
+  text-decoration: none;
+  white-space: nowrap;
+  letter-spacing: .01em;
+}
+
+.btn-sm  { padding: .4rem .9rem; font-size: .8rem }
+.btn-lg  { padding: .75rem 1.85rem; font-size: .95rem }
+.btn-full { width: 100%; justify-content: center }
+
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+  box-shadow: 0 2px 8px rgba(59,58,48,.25);
+}
+.btn-primary:hover {
+  background: var(--primary-h);
+  border-color: var(--primary-h);
+  box-shadow: 0 4px 16px rgba(59,58,48,.35);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+.btn-outline:hover {
+  background: var(--primary);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.btn-white {
+  background: #fff;
+  color: var(--primary);
+  border-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+.btn-white:hover {
+  background: #eaece5;
+  border-color: #eaece5;
+  color: var(--primary-h);
+  transform: translateY(-1px);
+}
+
+.btn-outline-white {
+  background: transparent;
+  color: #fff;
+  border-color: rgba(255,255,255,.55);
+}
+.btn-outline-white:hover {
+  background: rgba(255,255,255,.12);
+  border-color: #fff;
+  color: #fff;
+}
+
+/* ── Sections ── */
+.section { padding: 5rem 0 }
+
+.section-header {
+  max-width: 680px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.section-badge {
+  display: inline-block;
+  padding: .28rem .9rem;
+  border-radius: 99px;
+  background: #c0ded9;
+  color: var(--primary);
+  font-size: .72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-bottom: .7rem;
+  border: 1px solid #b2c2bf;
+}
+
+.section-title   { font-size: 2.1rem; margin-bottom: .65rem }
+.section-subtitle { color: var(--text-2); font-size: 1rem; line-height: 1.72 }
+.section-cta     { text-align: center; margin-top: 2.5rem }
+
+.gradient-text {
+  background: linear-gradient(135deg, #3b3a30, #8fa8a3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Utilities ── */
+.hidden    { display: none !important }
+.text-center { text-align: center }
+.mt-1 { margin-top: .5rem }
+.mt-2 { margin-top: 1rem }
+.mt-3 { margin-top: 1.5rem }
+.mt-4 { margin-top: 2rem }
+.mb-1 { margin-bottom: .5rem }
+.mb-2 { margin-bottom: 1rem }
+.mb-3 { margin-bottom: 1.5rem }
+
+/* ── Scroll Fade ── */
+.fade-up { opacity: 0; transform: translateY(20px); transition: opacity .55s ease, transform .55s ease }
+.fade-up.visible { opacity: 1; transform: translateY(0) }
+
+main { min-height: 60vh }

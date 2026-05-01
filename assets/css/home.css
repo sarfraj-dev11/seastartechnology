@@ -1,0 +1,334 @@
+/* home.css — Hero · USP · Trust Strip · CTA Banner */
+
+/* ── Hero ── */
+.hero {
+  background: linear-gradient(108deg, #252520 0%, #3b3a30 50%, #5c5b50 100%);
+  padding: 5rem 0 4.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 44%;
+  background: rgba(255,255,255,.04);
+  clip-path: polygon(8% 0, 100% 0, 100% 100%, 0% 100%);
+  pointer-events: none;
+}
+
+/* remove old glow shapes */
+.hero-bg-shapes { display: none }
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 3.5rem;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  background: rgba(192,222,217,.18);
+  color: #c0ded9;
+  padding: .35rem .95rem;
+  border-radius: 99px;
+  font-size: .78rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  border: 1px solid rgba(192,222,217,.3);
+}
+
+.hero-title {
+  font-size: clamp(1.85rem, 3.5vw, 3rem);
+  line-height: 1.14;
+  margin-bottom: 1.15rem;
+  color: #fff;
+}
+
+.hero-title .gradient-text {
+  background: linear-gradient(135deg, #c0ded9, #eaece5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-subtitle {
+  color: rgba(255,255,255,.78);
+  font-size: 1rem;
+  margin-bottom: 1.9rem;
+  max-width: 500px;
+  line-height: 1.72;
+}
+
+.hero-actions {
+  display: flex;
+  gap: .9rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.85rem;
+}
+
+.hero-trust-badges {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255,255,255,.12);
+}
+
+.hero-trust-badges span {
+  font-size: .78rem;
+  color: rgba(255,255,255,.65);
+  display: flex;
+  align-items: center;
+  gap: .32rem;
+}
+
+.hero-trust-badges i { color: #c0ded9 }
+
+/* ── Hero Visual ── */
+.hero-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-card-stack {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .9rem;
+  width: 100%;
+  max-width: 360px;
+}
+
+.hero-card {
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: var(--r-lg);
+  padding: 1.75rem 1.25rem;
+  text-align: center;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: var(--t);
+}
+
+.hero-card:hover {
+  background: rgba(255,255,255,.16);
+  transform: translateY(-4px);
+}
+
+.hero-card i {
+  font-size: 1.85rem;
+  margin-bottom: .65rem;
+  display: block;
+}
+
+.hero-card span {
+  font-size: .82rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.hc-1 i { color: #c0ded9 }
+.hc-2 i { color: #eaece5 }
+.hc-3 i { color: #d4b896 }
+.hc-4 i { color: #b2c2bf }
+
+/* ── USP Section ── */
+.usp-section { background: #ffffff }
+
+.usp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.usp-card {
+  background: var(--bg-alt);
+  border: 1px solid var(--border-lt);
+  border-radius: var(--r-lg);
+  padding: 1.85rem;
+  transition: var(--t);
+  position: relative;
+  border-left: 3px solid var(--border);
+}
+
+.usp-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+  border-left-color: var(--primary-l);
+}
+
+.usp-card--highlight {
+  border-left-color: var(--primary);
+  background: #eaece5;
+}
+
+.usp-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--r-md);
+  background: #c0ded9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.usp-card h3 { font-size: 1rem; margin-bottom: .45rem }
+.usp-card p  { font-size: .855rem; color: var(--text-2); line-height: 1.65 }
+
+.usp-highlight-badge {
+  display: inline-block;
+  margin-top: .8rem;
+  background: var(--success-bg);
+  color: var(--success);
+  font-size: .68rem;
+  font-weight: 700;
+  padding: .22rem .7rem;
+  border-radius: 99px;
+  text-transform: uppercase;
+  border: 1px solid #b2c2bf;
+}
+
+/* ── Trust Strip ── */
+.trust-strip {
+  background: var(--bg-alt);
+  border-top: 1px solid var(--border-lt);
+  border-bottom: 1px solid var(--border-lt);
+  padding: 1.75rem 0;
+  overflow: hidden;
+}
+
+.trust-strip-label {
+  text-align: center;
+  font-size: .72rem;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-bottom: 1.1rem;
+}
+
+.trust-logos-ticker { overflow: hidden; position: relative }
+
+.trust-logos-ticker::before,
+.trust-logos-ticker::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 70px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.trust-logos-ticker::before {
+  left: 0;
+  background: linear-gradient(to right, var(--bg-alt), transparent);
+}
+
+.trust-logos-ticker::after {
+  right: 0;
+  background: linear-gradient(to left, var(--bg-alt), transparent);
+}
+
+.trust-logos-track {
+  display: flex;
+  gap: 0;
+  animation: ticker 28s linear infinite;
+  width: max-content;
+}
+
+.trust-logos-track:hover { animation-play-state: paused }
+
+.trust-logo-item {
+  padding: 0 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.trust-logo-item span {
+  font-family: var(--font-h);
+  font-size: .95rem;
+  font-weight: 700;
+  color: var(--text-3);
+  transition: var(--t);
+}
+
+.trust-logo-item:hover span { color: var(--primary) }
+
+@keyframes ticker {
+  0%   { transform: translateX(0) }
+  100% { transform: translateX(-50%) }
+}
+
+/* ── CTA Banner ── */
+.cta-banner {
+  background: var(--primary);
+  padding: 3.75rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-banner::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  right: -80px;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.05);
+  pointer-events: none;
+}
+
+.cta-banner::after {
+  content: '';
+  position: absolute;
+  bottom: -40px;
+  left: 10%;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.04);
+  pointer-events: none;
+}
+
+.cta-banner-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.cta-banner-content h2 {
+  font-size: 1.7rem;
+  margin-bottom: .4rem;
+  color: #fff;
+}
+
+.cta-banner-content p {
+  color: rgba(255,255,255,.75);
+  font-size: .925rem;
+}
+
+.cta-banner-actions {
+  display: flex;
+  gap: .9rem;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}

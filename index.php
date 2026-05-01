@@ -3,7 +3,7 @@ require_once 'includes/config.php';
 require_once 'includes/db.php';
 
 $page_title = 'Home';
-$page_desc  = 'MyComputerCare is an authorized US reseller of McAfee, Bitdefender, Malwarebytes,  TP-Link and more. Every purchase includes 24/7 post-sale assistance.';
+$page_desc  = 'seastartechnology is an authorized US reseller of McAfee, Bitdefender, Malwarebytes,  TP-Link and more. Every purchase includes 24/7 post-sale assistance.';
 $featured   = get_featured_products(6);
 
 include 'includes/header.php';
@@ -125,7 +125,7 @@ include 'includes/header.php';
       <div class="section-badge">Our Promise</div>
       <h2 class="section-title">More Than Just a Product</h2>
       <p class="section-subtitle">
-        When you buy from MyComputerCare, you get more than a product. Every purchase includes
+        When you buy from seastartechnology, you get more than a product. Every purchase includes
         24/7 setup and post-sale technician assistance from our certified team —
         so the product you bought actually works the way it should, on your system, from day one.
       </p>
@@ -161,7 +161,7 @@ include 'includes/header.php';
       <div class="usp-card">
         <div class="usp-icon"><i class="fas fa-star"></i></div>
         <h3>Trusted by Thousands</h3>
-        <p>Thousands of customers across the US rely on MyComputerCare for their technology purchases every year.</p>
+        <p>Thousands of customers across the US rely on seastartechnology for their technology purchases every year.</p>
       </div>
     </div>
   </div>

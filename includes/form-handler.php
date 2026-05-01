@@ -24,9 +24,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['form_token'])) {
 
     if (empty($errors)) {
         $to      = SITE_EMAIL;
-        $subject = "New Contact Inquiry — MyComputerCare";
+        $subject = "New Contact Inquiry — seastartechnology";
         $body    = "Name: $name\nEmail: $email\nPhone: $phone\nProduct Interest: $product\n\nMessage:\n$message";
-        $headers = "From: no-reply@mycomputercare.com\r\nReply-To: $email\r\nX-Mailer: PHP/" . phpversion();
+        $headers = "From: no-reply@seastartechnology.com\r\nReply-To: $email\r\nX-Mailer: PHP/" . phpversion();
 
         if (mail($to, $subject, $body, $headers)) {
             $response = ['success' => true, 'message' => 'Thank you! We\'ll be in touch within 1 business day.'];

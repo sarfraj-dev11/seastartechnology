@@ -1,10 +1,10 @@
-# MyComputerCare — Full PHP Website Build
+# seastartechnology — Full PHP Website Build
 
 ## Overview
 
-Build a complete, Google-Ads-policy-compliant PHP website for **MyComputerCare**, an authorized reseller of consumer technology products. The site will be positioned purely as a **product retailer** (not a tech-assistance service), with post-sale assistance framed as a bundled USP, not the primary offering.
+Build a complete, Google-Ads-policy-compliant PHP website for **seastartechnology**, an authorized reseller of consumer technology products. The site will be positioned purely as a **product retailer** (not a tech-assistance service), with post-sale assistance framed as a bundled USP, not the primary offering.
 
-Root path: `/Applications/XAMPP/xamppfiles/htdocs/mycomputercare/`
+Root path: `/Applications/XAMPP/xamppfiles/htdocs/seastartechnology/`
 
 ---
 
@@ -27,7 +27,7 @@ Root path: `/Applications/XAMPP/xamppfiles/htdocs/mycomputercare/`
 
 > [!NOTE]
 > I'll proceed with sensible defaults for these — you can adjust after review:
-> - **Business name / legal name**: Using "MyComputerCare" (update in config.php)
+> - **Business name / legal name**: Using "seastartechnology" (update in config.php)
 > - **Phone number**: Placeholder `+1 (800) 000-0000` — replace in config.php
 > - **Address**: Placeholder US address — replace in config.php
 > - **Product prices**: Seeded in products.json as realistic placeholders
@@ -228,7 +228,7 @@ All public pages + product pages listed.
 ## Verification Plan
 
 ### Manual Verification
-- Load each page via `http://localhost/mycomputercare/` in browser
+- Load each page via `http://localhost/seastartechnology/` in browser
 - Test product filter on products.php
 - Test contact form submission
 - Test mobile responsive layout

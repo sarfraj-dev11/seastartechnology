@@ -30,9 +30,9 @@
       <div class="footer-col footer-brand-col">
         <div class="footer-logo">
           <div class="logo-icon">
-             <img src="../assets/images/icons/MyComputerCare logo.png" alt="MyComputerCare Logo">
+             <img src="assets/images/icons/seastartechnology-logo.png" alt="seastartechnology Logo">
         </div>
-          <!-- <span class="logo-name">MyComputerCare</span> -->
+          <!-- <span class="logo-name">seastartechnology</span> -->
         </div>
         <p class="footer-tagline">Authorized US reseller of genuine computer security software, hardware, and accessories — with 24/7 post-sale technician assistance on every order.</p>
         <div class="footer-social">

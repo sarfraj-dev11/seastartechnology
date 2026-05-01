@@ -59,7 +59,7 @@ include 'includes/header.php';
       <div class="section-badge">Our Commitment</div>
       <h2 class="section-title">Genuine Products. Backed by Real assistance.</h2>
       <p class="section-subtitle">
-        When you buy from MyComputerCare, you get more than a product. Every purchase includes
+        When you buy from seastartechnology, you get more than a product. Every purchase includes
         24/7 setup and post-sale technician assistance from our certified team —
         so the product you bought actually works the way it should, on your system, from day one.
       </p>

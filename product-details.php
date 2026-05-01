@@ -13,6 +13,22 @@ if (!$p) {
 $related  = get_related_products($p['related'] ?? []);
 $page_title = htmlspecialchars($p['title']);
 $page_desc  = htmlspecialchars($p['short_desc']);
+$extra_head = '<script type="application/ld+json">' . json_encode([
+  '@context' => 'https://schema.org/',
+  '@type'    => 'Product',
+  'name'     => $p['title'],
+  'image'    => SITE_URL . '/' . $p['image'],
+  'description' => $p['short_desc'],
+  'brand'    => ['@type' => 'Brand', 'name' => $p['brand']],
+  'offers'   => [
+    '@type'         => 'Offer',
+    'url'           => SITE_URL . '/product-details.php?slug=' . urlencode($slug),
+    'priceCurrency' => 'USD',
+    'price'         => $p['price'],
+    'availability'  => 'https://schema.org/InStock',
+    'seller'        => ['@type' => 'Organization', 'name' => 'SEASTAR TECHNOLOGIES LLC'],
+  ],
+]) . '</script>';
 include 'includes/header.php';
 ?>
 
@@ -46,12 +62,13 @@ include 'includes/header.php';
       <h1 class="pd-title"><?php echo htmlspecialchars($p['title']); ?></h1>
       <p class="pd-category"><i class="fas fa-tag"></i> <?php echo htmlspecialchars($p['category']); ?></p>
       <div class="pd-price">$<?php echo htmlspecialchars($p['price']); ?></div>
+      <p style="font-size:0.85rem;color:#22c55e;margin-bottom:0.5rem;"><i class="fas fa-circle-check"></i> In Stock &middot; Ships within 1–2 business days from US warehouse</p>
       <p class="pd-short-desc"><?php echo htmlspecialchars($p['short_desc']); ?></p>
       <p class="product-pricing">(* Pricing may vary depending on your region and product variants.)</p>
 
       <div class="pd-cta-group">
         <a href="tel:<?php echo SITE_PHONE_RAW; ?>" class="btn btn-primary btn-lg pd-cta">
-          <i class="fas fa-phone"></i> Call to Order
+          <i class="fas fa-phone"></i> Order by Phone: <?php echo SITE_PHONE; ?>
         </a>
         <a href="contact.php?product=<?php echo urlencode($p['title']); ?>" class="btn btn-outline btn-lg">
           <i class="fas fa-envelope"></i> Send Inquiry
@@ -79,14 +96,15 @@ include 'includes/header.php';
           <!-- What's Included -->
       
 
-      <!-- Bundled assistance USP -->
+      <!-- Activation Guidance USP -->
       <div class="pd-assistance-usp">
         <i class="fas fa-headset"></i>
         <div>
-          <strong>24/7 Post-Sale Technician assistance Included</strong>
-          <p>Our certified team helps you install, activate, and configure your purchase — available around the clock.</p>
+          <strong>Activation Guidance Included</strong>
+          <p>One-time license activation guidance is included with eligible software purchases to confirm your license is registered correctly.</p>
         </div>
       </div>
+      <p class="product-reseller-note" style="font-size:0.8rem;color:#666;margin-top:1rem;">Sold by SEASTAR TECHNOLOGIES LLC. Not affiliated with <?php echo htmlspecialchars($p['brand']); ?>.</p>
     </div>
   </div>
 </section>
@@ -139,8 +157,8 @@ include 'includes/header.php';
 <!-- What It Fixes -->
 <section class="section pd-problems-section">
   <div class="container">
-    <h2 class="section-title product-problems-sections">Problems This Product Solves</h2>
-    <p class="product-problems-sections-subheading">We sell products only and do not provide technical support services</p>
+    <h2 class="section-title product-problems-sections">Key Product Benefits</h2>
+    <p class="product-problems-sections-subheading">We are a retailer of consumer technology products and do not provide standalone technical support services</p>
     <div class="problems-grid">
       <?php foreach($p['problem_solved'] as $prob): ?>
       <div class="problem-card">
@@ -219,7 +237,7 @@ include 'includes/header.php';
 <!-- Sticky Mobile CTA -->
 <div class="sticky-cta-mobile" id="sticky-cta">
   <a href="tel:<?php echo SITE_PHONE_RAW; ?>" class="btn btn-primary btn-lg sticky-call-btn">
-    <i class="fas fa-phone"></i> Talk to a Specialist
+    <i class="fas fa-phone"></i> Order by Phone: <?php echo SITE_PHONE; ?>
   </a>
 </div>
 

@@ -1,7 +1,7 @@
 <?php
 require_once 'includes/config.php';
 $page_title = 'Shipping Policy';
-$page_desc  = 'seastartechnology Shipping Policy — digital delivery within 24 hours, physical hardware ships in 1-2 business days.';
+$page_desc  = 'Seastar Technology Shipping Policy — digital delivery within 24 hours, physical hardware ships in 1-2 business days from our US warehouse.';
 include 'includes/header.php';
 ?>
 <section class="page-hero page-hero--sm">

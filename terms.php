@@ -16,13 +16,14 @@ include 'includes/header.php';
 <p><strong>Important:</strong> By using this website or purchasing our products, you agree to these Terms. <?php echo SITE_LEGAL_NAME; ?> is an independent authorized reseller — not affiliated with any software manufacturer.</p>
 
 <h2>1. Products &amp; Services</h2>
-<p><?php echo SITE_LEGAL_NAME; ?> ("we," "us," "our") is an independent authorized reseller of antivirus and security software products for customers in the United States. Our offerings include:</p>
+<p><?php echo SITE_LEGAL_NAME; ?> ("we," "us," "our") is an independent authorized reseller of consumer technology products for customers in the United States. We are a retailer of consumer technology products and do not provide standalone technical support services. Our offerings include:</p>
 <ul>
-  <li>Sale of antivirus software licenses (McAfee, Malwarebytes, Bitdefender)</li>
-  <li>Guided remote installation and activation of purchased software</li>
-  <li>Sale of select productivity and security software bundles</li>
+  <li>Sale of antivirus and security software licenses (McAfee, Malwarebytes, Bitdefender)</li>
+  <li>Sale of storage devices, networking hardware, printers, and peripherals</li>
+  <li>Sale of OS media and productivity software</li>
+  <li>License activation guidance included with eligible software purchases</li>
 </ul>
-<p>All product delivery and installation assistance is performed remotely via approved digital tools. We do not provide on-site visits, physical repairs, or hardware services.</p>
+<p>License activation guidance for eligible software is delivered remotely. We do not provide on-site visits or standalone technical support services.</p>
 
 <h2>2. Independent Reseller Disclaimer</h2>
 <p><?php echo SITE_LEGAL_NAME; ?> is an independent authorized reseller. We are not affiliated with, endorsed by, sponsored by, or partnered with Microsoft, Apple, Google, McAfee, Malwarebytes, Bitdefender, or any other software manufacturer or OEM unless explicitly stated. All brand names, trademarks, and product names are property of their respective owners and are used for product identification only. Selling or installing third-party software does not constitute a partnership with the manufacturer.</p>
@@ -37,10 +38,10 @@ include 'includes/header.php';
 <p>Software products are licensed to you by their respective manufacturers, not by <?php echo SITE_LEGAL_NAME; ?>. We facilitate the sale and installation only. All manufacturer terms, warranties, and end-user license agreements (EULAs) apply. Neither title nor intellectual property rights transfer to you through us. You may not copy, sublicense, decompile, or reverse engineer any software purchased through us.</p>
 
 <h2>6. Refund Policy</h2>
-<p>Software purchases are non-refundable once activated per manufacturer licensing terms. If a product has not been activated, you may request a refund by contacting <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a> within 48 hours of purchase. An administrative processing fee may apply.</p>
+<p>Software keys are eligible for a full refund within 30 days of purchase if unactivated or proven non-functional. Once a software key has been successfully activated, it is non-refundable per manufacturer licensing terms. Physical products may be returned within 30 days if unopened and in original condition. See our full <a href="refund.php">Refund Policy</a> for complete details.</p>
 
-<h2>7. Remote Installation</h2>
-<p>Guided remote installation is included with your purchase. We use approved remote-access tools to install and activate your software. Remote access is initiated only with your explicit consent. You may terminate the session at any time. We use commercially reasonable efforts to maintain confidentiality of any information visible during the session.</p>
+<h2>7. Activation Guidance</h2>
+<p>License activation guidance is included with eligible software purchases. We use approved remote-access tools solely to help confirm your license is registered correctly. Remote access is initiated only with your explicit consent. You may terminate the session at any time. We use commercially reasonable efforts to maintain confidentiality of any information visible during the session.</p>
 <p><strong>Your Responsibilities:</strong></p>
 <ul>
   <li>Maintain a stable broadband internet connection</li>
@@ -77,7 +78,7 @@ include 'includes/header.php';
 <p>We are not liable for delays due to circumstances beyond reasonable control including natural disasters, power outages, pandemics, or national emergencies.</p>
 
 <h2>17. Governing Law</h2>
-<p>These Terms are governed by the laws of Maryland. Disputes shall be submitted to binding arbitration under the Commercial Arbitration Rules of the American Arbitration Association in Montgomery County, Maryland.</p>
+<p>These Terms are governed by the laws of the State of Florida. Disputes shall be submitted to binding arbitration under the Commercial Arbitration Rules of the American Arbitration Association in Hillsborough County, Florida.</p>
 
 <h2>18. Changes</h2>
 <p>We may update these Terms at any time. Changes are effective when posted. Continued use constitutes acceptance.</p>
@@ -86,7 +87,7 @@ include 'includes/header.php';
 <p>These Terms constitute the entire agreement and supersede all prior agreements. Failure to enforce any provision is not a waiver.</p>
 
 <h2>20. Disclaimer &amp; Legal Transparency</h2>
-<p><?php echo SITE_LEGAL_NAME; ?> (<?php echo SITE_ADDRESS_FULL; ?>) is an independent authorized reseller of select antivirus software products. We are not affiliated with, endorsed by, or acting on behalf of any software manufacturer, technology brand, or OEM unless explicitly stated. Brand names, logos, and trademarks mentioned belong to their respective owners and are used solely for product identification. All software products are sold as-is per their respective manufacturer's terms. Remote installation is provided as part of the purchase to assist with product setup only. Prices and availability are subject to change. Software purchases are non-refundable once activated per manufacturer licensing terms.</p>
+<p><?php echo SITE_LEGAL_NAME; ?> (<?php echo SITE_ADDRESS_FULL; ?>) is an independent authorized reseller of select consumer technology products including antivirus software, storage devices, networking hardware, printers, and peripherals. We are not affiliated with, endorsed by, or acting on behalf of any software manufacturer, technology brand, or OEM unless explicitly stated. Brand names, logos, and trademarks mentioned belong to their respective owners and are used solely for product identification. All products are sold as-is per their respective manufacturer's terms. License activation guidance is provided as part of eligible software purchases to confirm your license is registered correctly. We do not provide standalone technical support services. Prices and availability are subject to change. Software keys are refundable within 30 days only if unactivated or proven non-functional.</p>
 
 <h2>21. Opt-Out</h2>
 <p>To stop receiving communications, call <a href="tel:<?php echo SITE_PHONE_RAW; ?>"><?php echo SITE_PHONE; ?></a> or email <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a>.</p>

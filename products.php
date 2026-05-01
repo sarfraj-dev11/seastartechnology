@@ -2,7 +2,7 @@
 require_once 'includes/config.php';
 require_once 'includes/db.php';
 $page_title = 'Products & Services';
-$page_desc  = 'Browse genuine antivirus software, storage drives, networking hardware, printers, and more from seastartechnology — authorized US reseller.';
+$page_desc  = 'Browse genuine antivirus software, storage drives, networking hardware, printers, and more from Seastar Technology — authorized US reseller.';
 $all_products = get_all_products();
 $categories   = get_categories();
 $active_cat   = isset($_GET['cat']) ? urldecode($_GET['cat']) : 'All';
@@ -11,7 +11,7 @@ include 'includes/header.php';
 <section class="page-hero page-hero--sm">
   <div class="container">
     <h1>Products &amp; Services</h1>
-    <p>Genuine technology products from the world's most trusted brands — with 24/7 post-sale assistance included.</p>
+    <p>Genuine technology products from the world's most trusted brands — authorized US reseller with fast shipping and 30-day returns.</p>
   </div>
 </section>
 
@@ -43,14 +43,13 @@ include 'includes/header.php';
           <div class="product-brand"><?php echo htmlspecialchars($p['brand']); ?></div>
           <h3 class="product-name"><?php echo htmlspecialchars($p['title']); ?></h3>
           <p class="product-short-desc"><?php echo htmlspecialchars($p['short_desc']); ?></p>
-          <div class="product-problems">
-            <?php foreach(array_slice($p['problem_solved'],0,2) as $prob): ?>
-              <span class="problem-tag"><i class="fas fa-check-circle"></i> <?php echo htmlspecialchars($prob); ?></span>
-            <?php endforeach; ?>
-          </div>
+          <p class="product-reseller-note">Sold by SEASTAR TECHNOLOGIES LLC. Not affiliated with <?php echo htmlspecialchars($p['brand']); ?>.</p>
         </div>
         <div class="product-card-footer">
-          <div class="product-price">$<?php echo htmlspecialchars($p['price']); ?></div>
+          <div>
+            <div class="product-price">$<?php echo htmlspecialchars($p['price']); ?></div>
+            <small class="product-stock-status"><i class="fas fa-circle-check" style="color:#22c55e;font-size:0.7rem;"></i> In Stock &middot; Ships 1–2 days</small>
+          </div>
           <a href="product-details.php?slug=<?php echo urlencode($p['slug']); ?>" class="btn btn-primary btn-sm">View Details</a>
         </div>
       </div>

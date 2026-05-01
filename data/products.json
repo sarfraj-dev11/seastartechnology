@@ -19,8 +19,7 @@
     "whats_included": [
       "1-Year McAfee Total Protection License",
       "Unlimited devices",
-      "24/7 Setup & Installation assistance",
-      "Post-sale technician assistance"
+      "License activation guidance included"
     ],
     "description1": "McAfee Antivirus provides strong all-in-one protection with features like safe browsing (WebAdvisor) and a Vulnerability Scanner that detects risks before they become threats. It helps block malicious sites, phishing attacks, and keeps your system updated against the latest vulnerabilities.",
     "description2": "It also focuses on privacy and performance with tools like File Lock, Shredder, and QuickClean, while Safe Family and Identity Theft Protection add extra layers for family safety and personal data security—making it a complete, easy-to-use security solution.",
@@ -65,8 +64,7 @@
     "whats_included": [
       "1-Year Malwarebytes Premium License",
       "3 device coverage",
-      "24/7 Setup & Installation assistance",
-      "Post-sale technician assistance"
+      "License activation guidance included"
     ],
     "specs": {
       "Devices": "3",
@@ -103,8 +101,7 @@
     "whats_included": [
       "1-Year Bitdefender Total Security License",
       "5 device coverage",
-      "24/7 Setup & Installation assistance",
-      "Post-sale technician assistance"
+      "License activation guidance included"
     ],
     "specs": {
       "Devices": "5",
@@ -140,8 +137,7 @@
     "whats_included": [
       "1-Year CCleaner Pro License",
       "1 PC",
-      "24/7 Setup & Installation assistance",
-      "Post-sale technician assistance"
+      "License activation guidance included"
     ],
     "specs": {
       "Devices": "1 PC",
@@ -177,8 +173,7 @@
     "whats_included": [
       "1-Year iolo System Mechanic License",
       "Unlimited home PCs",
-      "24/7 Setup & Installation assistance",
-      "Post-sale technician assistance"
+      "License activation guidance included"
     ],
     "specs": {
       "Devices": "Unlimited home PCs",
@@ -213,8 +208,7 @@
     "whats_included": [
       "1-Year AVG TuneUp License",
       "Up to 10 devices",
-      "24/7 Setup & Installation assistance",
-      "Post-sale technician assistance"
+      "License activation guidance included"
     ],
     "specs": {
       "Devices": "10",
@@ -252,8 +246,7 @@
       "Bootable Windows 11 USB Drive",
       "Genuine Product Key Card",
       "Installation guide",
-      "24/7 Setup & Installation assistance",
-      "Post-sale technician assistance"
+      "License activation guidance included"
     ],
     "specs": {
       "Format": "Bootable USB (32 GB)",
@@ -272,7 +265,7 @@
     "id": 9,
     "slug": "windows-recovery-usb",
     "title": "Windows Recovery USB Drive",
-    "brand": "seastartechnology",
+    "brand": "Seastar Technology",
     "category": "OS & Recovery",
     "price": "29.99",
     "badge": "",
@@ -284,12 +277,11 @@
       "System shutdown"
     ],
     "description1":"Restore your Windows 10 or 11 system with ease using a bootable recovery USB. Includes a 32 GB drive and step-by-step recovery guide for quick repairs.",
-    "description2":"The Windows Recovery USB Drive from seastartechnology is the ultimate solution for restoring your system when it fails to start, crashes, or shuts down unexpectedly. This bootable USB (32 GB) allows you to perform crucial recovery operations on Windows 10 and 11 systems. Whether you need to reset, repair, or reinstall your operating system, this USB drive has you covered with built-in recovery modes for each scenario. Along with the USB, you’ll receive a step-by-step recovery guide, ensuring you can perform the recovery process quickly and without hassle. Plus, you’ll have 24/7 technician assistance and post-sale support, so you’re never alone during the recovery process.",
+    "description2":"The Windows Recovery USB Drive from Seastar Technology is the ultimate solution for restoring your system when it fails to start, crashes, or shuts down unexpectedly. This bootable USB (32 GB) allows you to perform crucial recovery operations on Windows 10 and 11 systems. Whether you need to reset, repair, or reinstall your operating system, this USB drive has you covered with built-in recovery modes for each scenario. Along with the USB, you’ll receive a step-by-step recovery guide, ensuring you can perform the recovery process quickly and without hassle.",
     "whats_included": [
       "Bootable Recovery USB (32 GB)",
       "Step-by-step recovery guide",
-      "24/7 Technician assistance",
-      "Post-sale assistance"
+      "Product setup documentation"
     ],
     "specs": {
       "Format": "Bootable USB (32 GB)",
@@ -323,8 +315,7 @@
     "whats_included": [
       "Samsung 980 1TB NVMe SSD",
       "Mounting screw",
-      "24/7 Installation assistance",
-      "Post-sale technician assistance"
+      "Setup documentation included"
     ],
     "specs": {
       "Capacity": "1 TB",
@@ -358,8 +349,7 @@
     "whats_included": [
       "WD Blue 2TB HDD",
       "Mounting screws",
-      "24/7 Installation assistance",
-      "Post-sale technician assistance"
+      "Setup documentation included"
     ],
     "description1":"Reliable 2TB storage solution with stable performance and high capacity for everyday computing, backups, and file storage needs.",
     "description2":"The WD Blue 2TB HDD is a dependable storage solution designed for everyday computing needs. With a large 2TB capacity, it provides ample space for documents, media files, games, and backups. Built with a 7200 RPM speed and a 256MB cache, this hard drive ensures smooth data access and consistent performance for general use and system upgrades.",
@@ -398,8 +388,7 @@
     "whats_included": [
       "Seagate Barracuda 2TB HDD",
       "Mounting screws",
-      "24/7 Installation assistance",
-      "Post-sale technician assistance"
+      "Setup documentation included"
     ],
     "specs": {
       "Capacity": "2 TB",
@@ -433,8 +422,7 @@
     "whats_included": [
       "Crucial MX500 1TB SSD",
       "Spacer adapter (7mm to 9.5mm)",
-      "24/7 Installation assistance",
-      "Post-sale technician assistance"
+      "Setup documentation included"
     ],
     "description1":"Upgrade your computer's performance with the Crucial BX500 SSD, designed to deliver fast and reliable speed. With read speeds up to 540MB/s and write speeds up to 500MB/s, the BX500 offers an instant performance boost for all your computing tasks.",
     "description2":"Built with Micron’s thousands of hours of pre-release validation and rigorous qualification tests, the BX500 has been thoroughly vetted for reliability. This award-winning SSD is engineered to improve system responsiveness, making boot-up and file loading faster than ever.",
@@ -457,7 +445,7 @@
     "id": 14,
     "slug": "lcd-led-screen",
     "title": "Laptop LCD/LED Replacement Screen",
-    "brand": "seastartechnology",
+    "brand": "Seastar Technology",
     "category": "Display Components",
     "price": "89.99",
     "badge": "",
@@ -470,11 +458,10 @@
       "Replacement LCD/LED Panel",
       "Anti-static packaging",
       "Installation guide",
-      "24/7 Technician assistance",
-      "Post-sale assistance"
+      "Product setup documentation"
     ],
     "description1":"OEM-quality replacement screens for laptops. Simply specify your model at checkout for the perfect fit.",
-    "description2":"Upgrade or replace your laptop's display with a high-quality LCD/LED panel from seastartechnology. Our replacement screens are compatible with major laptop brands such as Dell, HP, Lenovo, Asus, and Acer. Wherever possible, we provide Full HD IPS panels for vibrant, clear visuals. Just provide your laptop model number at checkout to ensure a seamless fit.",
+    "description2":"Upgrade or replace your laptop's display with a high-quality LCD/LED panel from Seastar Technology. Our replacement screens are compatible with major laptop brands such as Dell, HP, Lenovo, Asus, and Acer. Wherever possible, we provide Full HD IPS panels for vibrant, clear visuals. Just provide your laptop model number at checkout to ensure a seamless fit.",
     "specs": {
       "Resolution": "1920x1080 FHD (model dependent)",
       "Panel Type": "IPS / TN (model dependent)",
@@ -490,7 +477,7 @@
     "id": 15,
     "slug": "laptop-battery",
     "title": "Laptop Replacement Battery",
-    "brand": "seastartechnology",
+    "brand": "Seastar Technology",
     "category": "Power Accessories",
     "price": "49.99",
     "badge": "",
@@ -502,11 +489,10 @@
     "whats_included": [
       "Replacement Battery Pack",
       "Installation guide",
-      "24/7 Setup & Installation assistance",
-      "Post-sale technician assistance"
+      "License activation guidance included"
     ],
     "description1":"High-quality replacement battery packs for your laptop. Compatible with major brands like Dell, HP, and Lenovo, ensuring reliable power once again.",
-    "description2":"Restore the battery life of your laptop with a reliable, high-quality replacement battery pack from seastartechnology. Whether you're dealing with a battery that isn't charging or one that holds a poor charge, our replacement batteries are built to last. Specifically designed for Dell, HP, and Lenovo laptops, these batteries come with a 12-month warranty and are CE / RoHS certified for your peace of mind.",
+    "description2":"Restore the battery life of your laptop with a reliable, high-quality replacement battery pack from Seastar Technology. Whether you're dealing with a battery that isn't charging or one that holds a poor charge, our replacement batteries are built to last. Specifically designed for Dell, HP, and Lenovo laptops, these batteries come with a 12-month warranty and are CE / RoHS certified for your peace of mind.",
     "specs": {
       "Compatible Brands": "Dell, HP, Lenovo",
       "Warranty": "12 Months",
@@ -535,8 +521,7 @@
     "whats_included": [
       "Logitech K380 Keyboard",
       "2x AAA Batteries",
-      "24/7 Setup & Installation assistance",
-      "Post-sale technician assistance"
+      "License activation guidance included"
     ],
     "description1":"Compact and versatile, the Logitech K380 Wireless Keyboard connects seamlessly to multiple devices and delivers a reliable, quiet typing experience",
     "description2":"tay productive and comfortable with the Logitech K380 Wireless Keyboard, a compact and lightweight solution for typing on multiple devices. Using Bluetooth 3.0 technology, this keyboard can pair with up to three devices at once, allowing you to easily switch between your laptop, tablet, or smartphone with just the press of a button.",
@@ -563,7 +548,7 @@
     "price": "99.99",
     "badge": "WiFi 6",
     "short_desc": "Dual-band WiFi 6 router with AX3000 speeds — eliminate buffering and dead zones.",
-    "long_desc": "The TP-Link Archer AX55 delivers AX3000 WiFi 6 speeds across your entire home. assistances 40+ devices simultaneously, features OFDMA & MU-MIMO, and includes OneMesh compatibility.",
+    "long_desc": "The TP-Link Archer AX55 delivers AX3000 WiFi 6 speeds across your entire home. Supports 40+ devices simultaneously, features OFDMA & MU-MIMO, and includes OneMesh compatibility.",
     "problem_solved": [
       "Network disconnect",
       "WiFi printer issue"
@@ -574,8 +559,7 @@
       "TP-Link Archer AX55 Router",
       "Power Adapter",
       "Ethernet Cable",
-      "24/7 Setup & Installation assistance",
-      "Post-sale technician assistance"
+      "License activation guidance included"
     ],
     "specs": {
       "Standard": "WiFi 6 (802.11ax)",
@@ -610,8 +594,7 @@
     "description2":"Extend your WiFi network to every corner of your home with the TP-Link RE550 WiFi Range Extender. Designed to improve your network coverage, the RE550 offers dual-band speeds up to 1900 Mbps, ensuring that you can stream, game, and work without interruption in any room.",
     "whats_included": [
       "TP-Link RE550 Extender",
-      "24/7 Setup & Installation assistance",
-      "Post-sale technician assistance"
+      "License activation guidance included"
     ],
     "specs": {
       "Standard": "AC1900",
@@ -635,7 +618,7 @@
     "category": "Printers",
     "price": "169.99",
     "badge": "Popular",
-    "short_desc": "Wireless all-in-one printer with auto-duplex printing, scanning, and HP Instant Ink assistance.",
+    "short_desc": "Wireless all-in-one printer with auto-duplex printing, scanning, and HP Instant Ink enrollment.",
     "long_desc": "The HP ENVY All-in-One lets you print, scan, and copy wirelessly from any device. Includes auto-duplex printing, 35-page ADF, Bluetooth, WiFi Direct, and compatibility with HP Instant Ink.",
     "problem_solved": [
       "Printer not responding",
@@ -649,8 +632,7 @@
       "Black & Color Ink Cartridges",
       "USB Cable",
       "Power Cord",
-      "24/7 Setup & Installation assistance",
-      "Post-sale technician assistance"
+      "License activation guidance included"
     ],
     "specs": {
       "Functions": "Print, Scan, Copy",
@@ -686,8 +668,7 @@
     "whats_included": [
       "1-Year Driver Booster Pro License",
       "3 PCs",
-      "24/7 Setup & Installation assistance",
-      "Post-sale technician assistance"
+      "License activation guidance included"
     ],
     "specs": {
       "Devices": "3 PCs",
@@ -722,8 +703,7 @@
     "whats_included": [
       "1-Year Driver Easy Pro License",
       "3 PCs",
-      "24/7 Setup & Installation assistance",
-      "Post-sale technician assistance"
+      "License activation guidance included"
     ],
     "specs": {
       "Devices": "3 PCs",
@@ -742,7 +722,7 @@
     "id": 22,
     "slug": "annual-antivirus-renewal",
     "title": "Annual Antivirus Renewal Plan",
-    "brand": "seastartechnology",
+    "brand": "Seastar Technology",
     "category": "Coverage Plans",
     "price": "34.99",
     "badge": "Save 30%",
@@ -758,11 +738,10 @@
     "whats_included": [
       "1-Year Renewal Activation Code",
       "Delivery within 24 hours",
-      "24/7 Renewal assistance",
-      "Post-sale technician assistance"
+      "Renewal activation guidance included"
     ],
     "specs": {
-      "assistanceed Products": "McAfee, Bitdefender, Malwarebytes",
+      "Supported Products": "McAfee, Bitdefender, Malwarebytes",
       "Delivery": "Email (digital code)",
       "Turnaround": "Within 24 hours"
     },
@@ -777,26 +756,25 @@
     "id": 23,
     "slug": "extended-warranty-plan",
     "title": "Extended Hardware Warranty Plan",
-    "brand": "seastartechnology",
+    "brand": "Seastar Technology",
     "category": "Coverage Plans",
     "price": "59.99",
     "badge": "",
     "short_desc": "Extend your hardware coverage with 1-year protection against defects and failures.",
-    "long_desc": "Our Extended Hardware Warranty Plan adds 12 months of coverage on any hardware purchased through seastartechnology — including SSDs, HDDs, printers, routers, and laptop components.",
+    "long_desc": "Our Extended Hardware Warranty Plan adds 12 months of coverage on any hardware purchased through Seastar Technology — including SSDs, HDDs, printers, routers, and laptop components.",
     "problem_solved": [
       "Customer wants coverage"
     ],
-    "description1":"Get peace of mind with a 12-month extended warranty plan, covering all hardware purchased from seastartechnology. Enjoy priority support and quick resolution for any failures.",
-    "description2":"Protect your valuable hardware investment with the Extended Hardware Warranty Plan from seastartechnology. This plan extends the warranty coverage for all hardware purchased from us, giving you an additional 12 months of security. If any covered failure occurs, you’ll receive a replacement or credit, ensuring your equipment is always up and running. With priority technician assistance, you’ll get fast support when you need it most. Whether you need help via phone or email, we aim to respond within 1 business day, providing you with efficient solutions to any issues that may arise.",
+    "description1":"Get peace of mind with a 12-month extended warranty plan, covering all hardware purchased from Seastar Technology. Enjoy priority support and quick resolution for any failures.",
+    "description2":"Protect your valuable hardware investment with the Extended Hardware Warranty Plan from Seastar Technology. This plan extends the warranty coverage for all hardware purchased from us, giving you an additional 12 months of security. If any covered failure occurs, you’ll receive a replacement or credit, ensuring your equipment is always up and running. We aim to respond to all warranty claims within 1 business day via phone or email.",
     "whats_included": [
       "12-Month Extended Coverage Certificate",
-      "Priority technician assistance",
-      "Replacement or credit for covered failures",
-      "Post-sale technician assistance"
+      "Priority order assistance",
+      "Replacement or credit for covered failures"
     ],
     "specs": {
       "Coverage Duration": "12 Months",
-      "Covered Items": "All hardware purchased from seastartechnology",
+      "Covered Items": "All hardware purchased from Seastar Technology",
       "Claim Process": "Phone or email",
       "Response Time": "Within 1 business day"
     },

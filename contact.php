@@ -4,7 +4,7 @@ require_once 'includes/db.php';
 require_once 'includes/form-handler.php';
 
 $page_title = 'Contact Us';
-$page_desc  = 'Contact seastartechnology — authorized reseller of consumer technology. Call, email, or fill in our form.';
+$page_desc  = 'Contact Seastar Technology — authorized reseller of consumer technology. Call, email, or fill in our form.';
 $products   = get_all_products();
 $preset_product = isset($_GET['product']) ? htmlspecialchars(urldecode($_GET['product'])) : '';
 include 'includes/header.php';
@@ -102,7 +102,7 @@ include 'includes/header.php';
       <!-- Help Center anchor -->
       <div class="contact-info-card help-anchor" id="help">
         <h3><i class="fas fa-circle-question"></i> Help Center</h3>
-        <p>Need help with a product you already purchased? Call us or send a message — 24/7 post-sale assistance is included with every order.</p>
+        <p>Questions about an existing order or need to track a shipment? Call us or send a message — our team is here to help with sales and order inquiries.</p>
         <a href="tel:<?php echo SITE_PHONE_RAW; ?>" class="btn btn-primary"><?php echo SITE_PHONE; ?></a>
       </div>
     </div>

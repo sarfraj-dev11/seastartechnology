@@ -1,7 +1,7 @@
 <?php
 require_once 'includes/config.php';
 $page_title = 'About Us';
-$page_desc  = 'Solvent Technology LLC is a U.S.-registered authorized reseller of leading antivirus and security software products, located in Rockville, Maryland.';
+$page_desc  = 'SEASTAR TECHNOLOGIES LLC is a U.S.-registered authorized reseller of leading consumer technology products including antivirus software, hardware, and accessories, located in Tampa, Florida.';
 include 'includes/header.php';
 ?>
 
@@ -10,7 +10,7 @@ include 'includes/header.php';
     <div class="page-hero-content">
       <div class="section-badge">Who We Are</div>
       <h1>About <?php echo SITE_NAME; ?></h1>
-      <p>Solvent Technology LLC — a U.S.-registered authorized reseller of leading antivirus and security software products, located in Rockville, Maryland.</p>
+      <p>SEASTAR TECHNOLOGIES LLC — a U.S.-registered authorized reseller of leading consumer technology products including antivirus software, hardware, and accessories, located in Tampa, Florida.</p>
     </div>
   </div>
 </section>
@@ -21,9 +21,10 @@ include 'includes/header.php';
     <div class="about-content">
       <div class="section-badge">Our Story</div>
       <h2 class="section-title">US-Based Authorized Technology Reseller</h2>
-      <p>Solvent Technology LLC is a U.S.-registered authorized reseller of leading antivirus and security software products, located in Rockville, Maryland.</p>
+      <p>SEASTAR TECHNOLOGIES LLC is a U.S.-registered authorized reseller of leading consumer technology products — including antivirus software, storage devices, networking hardware, printers, and peripherals — located in Tampa, Florida.</p>
       <p>We are an independent reseller — not affiliated with, endorsed by, or representing any software manufacturer or OEM unless explicitly stated. Brand names and trademarks belong to their respective owners and are used solely for product identification.</p>
-      <p>Every purchase includes guided remote installation so you can start using your software immediately. We believe in transparent pricing and honest service.</p>
+      <p>We are a retailer of consumer technology products. We do not provide standalone technical support services. License activation guidance is included with eligible software purchases to confirm your license is registered correctly.</p>
+      <p>We believe in transparent pricing, honest service, and delivering genuine products to customers across the United States.</p>
       <div class="about-stats">
         <div class="stat-item">
           <span class="stat-num">10,000+</span>
@@ -57,11 +58,10 @@ include 'includes/header.php';
   <div class="container">
     <div class="section-header">
       <div class="section-badge">Our Commitment</div>
-      <h2 class="section-title">Genuine Products. Backed by Real assistance.</h2>
+      <h2 class="section-title">Genuine Products. Transparent Service.</h2>
       <p class="section-subtitle">
-        When you buy from seastartechnology, you get more than a product. Every purchase includes
-        24/7 setup and post-sale technician assistance from our certified team —
-        so the product you bought actually works the way it should, on your system, from day one.
+        When you buy from Seastar Technology, you get genuine products sourced through authorized channels —
+        with competitive pricing, fast delivery, and 30-day returns on eligible items.
       </p>
     </div>
     <div class="usp-grid">
@@ -72,9 +72,9 @@ include 'includes/header.php';
       </div>
       <div class="usp-card usp-card--highlight">
         <div class="usp-icon"><i class="fas fa-headset"></i></div>
-        <h3>Post-Sale Technician assistance</h3>
-        <p>Our certified technicians help you set up and configure every product you purchase — included with every order.</p>
-        <div class="usp-highlight-badge">24/7 Included</div>
+        <h3>Product Activation Help</h3>
+        <p>One-time activation guidance is included with eligible software purchases to confirm your license is registered correctly.</p>
+        <div class="usp-highlight-badge">Included</div>
       </div>
       <div class="usp-card">
         <div class="usp-icon"><i class="fas fa-handshake"></i></div>

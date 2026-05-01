@@ -3,26 +3,6 @@
 <!-- Footer -->
 <footer class="site-footer">
 
-  <!-- Trust Logos -->
-  <div class="footer-brands">
-    <div class="container">
-      <p class="brands-label">Authorized Reseller Of</p>
-      <div class="brands-logos">
-        <span class="brand-badge">McAfee</span>
-        <span class="brand-badge">Bitdefender</span>
-        <span class="brand-badge">Malwarebytes</span>
-        
-        <span class="brand-badge">Western Digital</span>
-        <span class="brand-badge">Seagate</span>
-    
-        <span class="brand-badge">TP-Link</span>
-        <span class="brand-badge">Logitech</span>
-        <span class="brand-badge">Microsoft</span>
-        <span class="brand-badge">iolo</span>
-      </div>
-    </div>
-  </div>
-
   <div class="footer-main">
     <div class="container footer-grid">
 
@@ -30,11 +10,11 @@
       <div class="footer-col footer-brand-col">
         <div class="footer-logo">
           <div class="logo-icon">
-             <img src="assets/images/icons/seastartechnology-logo.png" alt="seastartechnology Logo">
+             <img src="assets/images/icons/seastartechnology-logo.png" alt="Seastar Technology Logo">
         </div>
           <!-- <span class="logo-name">seastartechnology</span> -->
         </div>
-        <p class="footer-tagline">Authorized US reseller of genuine computer security software, hardware, and accessories — with 24/7 post-sale technician assistance on every order.</p>
+        <p class="footer-tagline">Authorized US reseller of genuine computer security software, hardware, and accessories.</p>
         <div class="footer-social">
           <?php if(SOCIAL_FACEBOOK): ?><a href="<?php echo SOCIAL_FACEBOOK; ?>" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><?php endif; ?>
           <?php if(SOCIAL_TWITTER): ?><a href="<?php echo SOCIAL_TWITTER; ?>" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a><?php endif; ?>
@@ -67,6 +47,7 @@
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>privacy.php">Privacy Policy</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>refund.php">Refund Policy</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>shipping.php">Shipping Policy</a></li>
+          <li><a href="<?php echo isset($depth) ? $depth : ''; ?>order-tracking.php">Order Tracking</a></li>
         </ul>
       </div>
 
@@ -78,7 +59,8 @@
             <span><?php echo SITE_ADDRESS_LINE1; ?><br><?php echo SITE_ADDRESS_LINE2; ?></span>
           </li>
           <li><i class="fas fa-phone"></i>
-            <a href="tel:<?php echo SITE_PHONE_RAW; ?>"><?php echo SITE_PHONE; ?></a>
+            <span>Sales &amp; Orders: <a href="tel:<?php echo SITE_PHONE_RAW; ?>"><?php echo SITE_PHONE; ?></a><br>
+            <small>Existing customers: <a href="mailto:<?php echo SITE_SUPPORT_EMAIL; ?>"><?php echo SITE_SUPPORT_EMAIL; ?></a></small></span>
           </li>
           <li><i class="fas fa-envelope"></i>
             <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a>
@@ -97,7 +79,7 @@
   <!-- Disclaimer -->
   <div class="footer-disclaimer">
     <div class="container">
-      <p><?php echo SITE_LEGAL_NAME; ?> (<?php echo SITE_ADDRESS_FULL; ?>) is an independent authorized reseller of select antivirus software products. We are not affiliated with, endorsed by, or acting on behalf of any software manufacturer, technology brand, or OEM unless explicitly stated. Brand names, logos, and trademarks mentioned belong to their respective owners and are used solely for product identification. All software products are sold as-is per their respective manufacturer's terms. Remote installation is provided as part of the purchase to assist with product setup only. Prices and availability are subject to change. Software purchases are non-refundable once activated per manufacturer licensing terms.</p>
+      <p><?php echo SITE_LEGAL_NAME; ?> (<?php echo SITE_ADDRESS_FULL; ?>) is an independent authorized reseller of select consumer technology products including antivirus software, storage devices, networking hardware, printers, and peripherals. We are not affiliated with, endorsed by, or acting on behalf of any software manufacturer, technology brand, or OEM unless explicitly stated. Brand names, logos, and trademarks mentioned belong to their respective owners and are used solely for product identification. All software products are sold as-is per their respective manufacturer's terms. License activation guidance is provided as part of eligible software purchases to confirm your license is registered correctly. Prices and availability are subject to change. Software keys are refundable within 30 days only if unactivated or proven non-functional.</p>
       <p>Opt-Out: To stop receiving communications, call <a href="tel:<?php echo SITE_PHONE_RAW; ?>"><?php echo SITE_PHONE; ?></a> or email <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a>.</p>
     </div>
   </div>

@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['form_token'])) {
 
     if (empty($errors)) {
         $to      = SITE_EMAIL;
-        $subject = "New Contact Inquiry — seastartechnology";
+        $subject = "New Contact Inquiry — Seastar Technology";
         $body    = "Name: $name\nEmail: $email\nPhone: $phone\nProduct Interest: $product\n\nMessage:\n$message";
         $headers = "From: no-reply@seastartechnology.com\r\nReply-To: $email\r\nX-Mailer: PHP/" . phpversion();
 

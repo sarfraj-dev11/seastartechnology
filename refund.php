@@ -1,7 +1,7 @@
 <?php
 require_once 'includes/config.php';
 $page_title = 'Refund Policy';
-$page_desc  = 'seastartechnology Refund Policy — 30-day returns on physical products and software key issues.';
+$page_desc  = 'Seastar Technology Refund Policy — 30-day returns on physical products and software key issues.';
 include 'includes/header.php';
 ?>
 <section class="page-hero page-hero--sm">
@@ -23,10 +23,11 @@ include 'includes/header.php';
 
 <h2>2. Digital Products (Software Licenses, Activation Codes)</h2>
 <ul>
-  <li><strong>Non-functional key:</strong> If your license key fails to activate and we cannot resolve the issue within 48 hours, you are entitled to a full refund.</li>
-  <li><strong>Activated keys:</strong> Once a software key has been successfully activated, it is non-refundable.</li>
-  <li><strong>Wrong product:</strong> If you received a license for the wrong product or edition, we will exchange it or refund it in full.</li>
-  <li><strong>Claim window:</strong> Digital product claims must be submitted within 30 days of purchase.</li>
+  <li><strong>Refund eligibility:</strong> Software keys are eligible for a full refund within 30 days of purchase if unactivated or proven non-functional.</li>
+  <li><strong>Non-functional key:</strong> If your license key fails to activate and we cannot resolve the issue within 48 hours, you are entitled to a full refund (claim must be submitted within 30 days of purchase).</li>
+  <li><strong>Activated keys:</strong> Once a software key has been successfully activated, it is non-refundable per manufacturer licensing terms.</li>
+  <li><strong>Wrong product:</strong> If you received a license for the wrong product or edition, we will exchange it or refund it in full within 30 days of purchase.</li>
+  <li><strong>Claim window:</strong> All digital product claims must be submitted within 30 days of purchase.</li>
 </ul>
 
 <h2>3. Coverage Plans &amp; Renewals</h2>

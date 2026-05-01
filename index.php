@@ -3,7 +3,7 @@ require_once 'includes/config.php';
 require_once 'includes/db.php';
 
 $page_title = 'Home';
-$page_desc  = 'seastartechnology is an authorized US reseller of McAfee, Bitdefender, Malwarebytes,  TP-Link and more. Every purchase includes 24/7 post-sale assistance.';
+$page_desc  = 'Seastar Technology is an authorized US reseller of McAfee, Bitdefender, Malwarebytes, TP-Link and more. Genuine software, hardware &amp; accessories delivered to your door.';
 $featured   = get_featured_products(6);
 
 include 'includes/header.php';
@@ -28,22 +28,22 @@ include 'includes/header.php';
       </h1>
       <p class="hero-subtitle">
         Genuine software, hardware &amp; accessories from the brands you trust —
-        McAfee, Bitdefender, Malwarebytes,  TP-Link &amp; more. Every purchase includes
-        setup & post-sale assistance.
+        McAfee, Bitdefender, Malwarebytes, TP-Link &amp; more. Authorized US reseller
+        with fast shipping and 30-day returns.
       </p>
       <div class="hero-actions">
         <a href="products.php" class="btn btn-primary btn-lg">
           <i class="fas fa-th-large"></i> Shop All Products
         </a>
         <a href="tel:<?php echo SITE_PHONE_RAW; ?>" class="btn btn-primary btn-lg">
-          <i class="fas fa-phone"></i> <?php echo SITE_PHONE; ?>
+          <i class="fas fa-phone"></i> Talk to a Sales Specialist: <?php echo SITE_PHONE; ?>
         </a>
       </div>
       <div class="hero-trust-badges">
         <span><i class="fas fa-lock"></i> Secure Checkout</span>
         <span><i class="fas fa-rotate-left"></i> 30-Day Returns</span>
         <span><i class="fas fa-truck-fast"></i> Fast Shipping</span>
-        <span><i class="fas fa-headset"></i> Post-Sale assistance</span>
+        <span><i class="fas fa-headset"></i> Activation Help Included</span>
       </div>
     </div>
     <div class="hero-visual">
@@ -96,14 +96,13 @@ include 'includes/header.php';
           <div class="product-brand"><?php echo htmlspecialchars($p['brand']); ?></div>
           <h3 class="product-name"><?php echo htmlspecialchars($p['title']); ?></h3>
           <p class="product-short-desc"><?php echo htmlspecialchars($p['short_desc']); ?></p>
-          <div class="product-problems">
-            <?php foreach(array_slice($p['problem_solved'], 0, 2) as $prob): ?>
-              <span class="problem-tag"><i class="fas fa-check-circle"></i> <?php echo htmlspecialchars($prob); ?></span>
-            <?php endforeach; ?>
-          </div>
+          <p class="product-reseller-note">Sold by SEASTAR TECHNOLOGIES LLC. Not affiliated with <?php echo htmlspecialchars($p['brand']); ?>.</p>
         </div>
         <div class="product-card-footer">
-          <div class="product-price">$<?php echo htmlspecialchars($p['price']); ?></div>
+          <div>
+            <div class="product-price">$<?php echo htmlspecialchars($p['price']); ?></div>
+            <small class="product-stock-status"><i class="fas fa-circle-check" style="color:#22c55e;font-size:0.7rem;"></i> In Stock &middot; Ships 1–2 days</small>
+          </div>
           <a href="product-details.php?slug=<?php echo urlencode($p['slug']); ?>" class="btn btn-primary btn-sm">View Details</a>
         </div>
       </div>
@@ -125,9 +124,8 @@ include 'includes/header.php';
       <div class="section-badge">Our Promise</div>
       <h2 class="section-title">More Than Just a Product</h2>
       <p class="section-subtitle">
-        When you buy from seastartechnology, you get more than a product. Every purchase includes
-        24/7 setup and post-sale technician assistance from our certified team —
-        so the product you bought actually works the way it should, on your system, from day one.
+        When you buy from Seastar Technology, you get genuine products sourced through authorized channels —
+        with fast delivery, transparent pricing, and 30-day returns on eligible items.
       </p>
     </div>
 
@@ -139,9 +137,9 @@ include 'includes/header.php';
       </div>
       <div class="usp-card usp-card--highlight">
         <div class="usp-icon"><i class="fas fa-headset"></i></div>
-        <h3>24/7 Setup assistance</h3>
-        <p>Our certified technicians are available to help you install, activate, and configure your purchase — included with every order.</p>
-        <div class="usp-highlight-badge">24/7 Support</div>
+        <h3>Product Activation Help</h3>
+        <p>One-time activation guidance is included with eligible software purchases to confirm your license is registered correctly.</p>
+        <div class="usp-highlight-badge">Included</div>
       </div>
       <div class="usp-card">
         <div class="usp-icon"><i class="fas fa-rotate-left"></i></div>
@@ -161,7 +159,7 @@ include 'includes/header.php';
       <div class="usp-card">
         <div class="usp-icon"><i class="fas fa-star"></i></div>
         <h3>Trusted by Thousands</h3>
-        <p>Thousands of customers across the US rely on seastartechnology for their technology purchases every year.</p>
+        <p>Thousands of customers across the US rely on Seastar Technology for their technology purchases every year.</p>
       </div>
     </div>
   </div>
@@ -195,11 +193,12 @@ include 'includes/header.php';
   <div class="container cta-banner-inner">
     <div class="cta-banner-content">
       <h2>Not Sure Which Product You Need?</h2>
-      <p>Call our product specialists — we'll help you find the right solution for your situation, no pressure.</p>
+      <p>Call our sales team — product questions, bundles, bulk orders.</p>
+      <p class="cta-note" style="font-size:0.8rem;opacity:0.8;margin-top:0.5rem;">Existing customers: <a href="mailto:<?php echo SITE_SUPPORT_EMAIL; ?>" style="color:inherit;"><?php echo SITE_SUPPORT_EMAIL; ?></a></p>
     </div>
     <div class="cta-banner-actions">
       <a href="tel:<?php echo SITE_PHONE_RAW; ?>" class="btn btn-white btn-lg">
-        <i class="fas fa-phone"></i> <?php echo SITE_PHONE; ?>
+        <i class="fas fa-phone"></i> Sales: <?php echo SITE_PHONE; ?>
       </a>
       <a href="contact.php" class="btn btn-outline-white btn-lg">Send a Message</a>
     </div>

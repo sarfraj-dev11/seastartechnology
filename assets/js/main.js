@@ -1,4 +1,4 @@
-// MyComputerCare — main.js
+// seastartechnology — main.js
 
 document.addEventListener('DOMContentLoaded', function () {
 

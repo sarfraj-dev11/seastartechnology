@@ -272,7 +272,7 @@
     "id": 9,
     "slug": "windows-recovery-usb",
     "title": "Windows Recovery USB Drive",
-    "brand": "MyComputerCare",
+    "brand": "seastartechnology",
     "category": "OS & Recovery",
     "price": "29.99",
     "badge": "",
@@ -284,7 +284,7 @@
       "System shutdown"
     ],
     "description1":"Restore your Windows 10 or 11 system with ease using a bootable recovery USB. Includes a 32 GB drive and step-by-step recovery guide for quick repairs.",
-    "description2":"The Windows Recovery USB Drive from MyComputerCare is the ultimate solution for restoring your system when it fails to start, crashes, or shuts down unexpectedly. This bootable USB (32 GB) allows you to perform crucial recovery operations on Windows 10 and 11 systems. Whether you need to reset, repair, or reinstall your operating system, this USB drive has you covered with built-in recovery modes for each scenario. Along with the USB, you’ll receive a step-by-step recovery guide, ensuring you can perform the recovery process quickly and without hassle. Plus, you’ll have 24/7 technician assistance and post-sale support, so you’re never alone during the recovery process.",
+    "description2":"The Windows Recovery USB Drive from seastartechnology is the ultimate solution for restoring your system when it fails to start, crashes, or shuts down unexpectedly. This bootable USB (32 GB) allows you to perform crucial recovery operations on Windows 10 and 11 systems. Whether you need to reset, repair, or reinstall your operating system, this USB drive has you covered with built-in recovery modes for each scenario. Along with the USB, you’ll receive a step-by-step recovery guide, ensuring you can perform the recovery process quickly and without hassle. Plus, you’ll have 24/7 technician assistance and post-sale support, so you’re never alone during the recovery process.",
     "whats_included": [
       "Bootable Recovery USB (32 GB)",
       "Step-by-step recovery guide",
@@ -457,7 +457,7 @@
     "id": 14,
     "slug": "lcd-led-screen",
     "title": "Laptop LCD/LED Replacement Screen",
-    "brand": "MyComputerCare",
+    "brand": "seastartechnology",
     "category": "Display Components",
     "price": "89.99",
     "badge": "",
@@ -474,7 +474,7 @@
       "Post-sale assistance"
     ],
     "description1":"OEM-quality replacement screens for laptops. Simply specify your model at checkout for the perfect fit.",
-    "description2":"Upgrade or replace your laptop's display with a high-quality LCD/LED panel from MyComputerCare. Our replacement screens are compatible with major laptop brands such as Dell, HP, Lenovo, Asus, and Acer. Wherever possible, we provide Full HD IPS panels for vibrant, clear visuals. Just provide your laptop model number at checkout to ensure a seamless fit.",
+    "description2":"Upgrade or replace your laptop's display with a high-quality LCD/LED panel from seastartechnology. Our replacement screens are compatible with major laptop brands such as Dell, HP, Lenovo, Asus, and Acer. Wherever possible, we provide Full HD IPS panels for vibrant, clear visuals. Just provide your laptop model number at checkout to ensure a seamless fit.",
     "specs": {
       "Resolution": "1920x1080 FHD (model dependent)",
       "Panel Type": "IPS / TN (model dependent)",
@@ -490,7 +490,7 @@
     "id": 15,
     "slug": "laptop-battery",
     "title": "Laptop Replacement Battery",
-    "brand": "MyComputerCare",
+    "brand": "seastartechnology",
     "category": "Power Accessories",
     "price": "49.99",
     "badge": "",
@@ -506,7 +506,7 @@
       "Post-sale technician assistance"
     ],
     "description1":"High-quality replacement battery packs for your laptop. Compatible with major brands like Dell, HP, and Lenovo, ensuring reliable power once again.",
-    "description2":"Restore the battery life of your laptop with a reliable, high-quality replacement battery pack from MyComputerCare. Whether you're dealing with a battery that isn't charging or one that holds a poor charge, our replacement batteries are built to last. Specifically designed for Dell, HP, and Lenovo laptops, these batteries come with a 12-month warranty and are CE / RoHS certified for your peace of mind.",
+    "description2":"Restore the battery life of your laptop with a reliable, high-quality replacement battery pack from seastartechnology. Whether you're dealing with a battery that isn't charging or one that holds a poor charge, our replacement batteries are built to last. Specifically designed for Dell, HP, and Lenovo laptops, these batteries come with a 12-month warranty and are CE / RoHS certified for your peace of mind.",
     "specs": {
       "Compatible Brands": "Dell, HP, Lenovo",
       "Warranty": "12 Months",
@@ -742,7 +742,7 @@
     "id": 22,
     "slug": "annual-antivirus-renewal",
     "title": "Annual Antivirus Renewal Plan",
-    "brand": "MyComputerCare",
+    "brand": "seastartechnology",
     "category": "Coverage Plans",
     "price": "34.99",
     "badge": "Save 30%",
@@ -777,17 +777,17 @@
     "id": 23,
     "slug": "extended-warranty-plan",
     "title": "Extended Hardware Warranty Plan",
-    "brand": "MyComputerCare",
+    "brand": "seastartechnology",
     "category": "Coverage Plans",
     "price": "59.99",
     "badge": "",
     "short_desc": "Extend your hardware coverage with 1-year protection against defects and failures.",
-    "long_desc": "Our Extended Hardware Warranty Plan adds 12 months of coverage on any hardware purchased through MyComputerCare — including SSDs, HDDs, printers, routers, and laptop components.",
+    "long_desc": "Our Extended Hardware Warranty Plan adds 12 months of coverage on any hardware purchased through seastartechnology — including SSDs, HDDs, printers, routers, and laptop components.",
     "problem_solved": [
       "Customer wants coverage"
     ],
-    "description1":"Get peace of mind with a 12-month extended warranty plan, covering all hardware purchased from MyComputerCare. Enjoy priority support and quick resolution for any failures.",
-    "description2":"Protect your valuable hardware investment with the Extended Hardware Warranty Plan from MyComputerCare. This plan extends the warranty coverage for all hardware purchased from us, giving you an additional 12 months of security. If any covered failure occurs, you’ll receive a replacement or credit, ensuring your equipment is always up and running. With priority technician assistance, you’ll get fast support when you need it most. Whether you need help via phone or email, we aim to respond within 1 business day, providing you with efficient solutions to any issues that may arise.",
+    "description1":"Get peace of mind with a 12-month extended warranty plan, covering all hardware purchased from seastartechnology. Enjoy priority support and quick resolution for any failures.",
+    "description2":"Protect your valuable hardware investment with the Extended Hardware Warranty Plan from seastartechnology. This plan extends the warranty coverage for all hardware purchased from us, giving you an additional 12 months of security. If any covered failure occurs, you’ll receive a replacement or credit, ensuring your equipment is always up and running. With priority technician assistance, you’ll get fast support when you need it most. Whether you need help via phone or email, we aim to respond within 1 business day, providing you with efficient solutions to any issues that may arise.",
     "whats_included": [
       "12-Month Extended Coverage Certificate",
       "Priority technician assistance",
@@ -796,7 +796,7 @@
     ],
     "specs": {
       "Coverage Duration": "12 Months",
-      "Covered Items": "All hardware purchased from MyComputerCare",
+      "Covered Items": "All hardware purchased from seastartechnology",
       "Claim Process": "Phone or email",
       "Response Time": "Within 1 business day"
     },

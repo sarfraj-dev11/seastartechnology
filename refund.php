@@ -1,7 +1,7 @@
 <?php
 require_once 'includes/config.php';
 $page_title = 'Refund Policy';
-$page_desc  = 'MyComputerCare Refund Policy — 30-day returns on physical products and software key issues.';
+$page_desc  = 'seastartechnology Refund Policy — 30-day returns on physical products and software key issues.';
 include 'includes/header.php';
 ?>
 <section class="page-hero page-hero--sm">

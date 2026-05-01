@@ -2,7 +2,7 @@
 require_once 'includes/config.php';
 require_once 'includes/db.php';
 $page_title = 'Products & Services';
-$page_desc  = 'Browse genuine antivirus software, storage drives, networking hardware, printers, and more from MyComputerCare — authorized US reseller.';
+$page_desc  = 'Browse genuine antivirus software, storage drives, networking hardware, printers, and more from seastartechnology — authorized US reseller.';
 $all_products = get_all_products();
 $categories   = get_categories();
 $active_cat   = isset($_GET['cat']) ? urldecode($_GET['cat']) : 'All';

@@ -4,7 +4,7 @@ require_once 'includes/db.php';
 require_once 'includes/form-handler.php';
 
 $page_title = 'Contact Us';
-$page_desc  = 'Contact MyComputerCare — authorized reseller of consumer technology. Call, email, or fill in our form.';
+$page_desc  = 'Contact seastartechnology — authorized reseller of consumer technology. Call, email, or fill in our form.';
 $products   = get_all_products();
 $preset_product = isset($_GET['product']) ? htmlspecialchars(urldecode($_GET['product'])) : '';
 include 'includes/header.php';
@@ -99,7 +99,9 @@ include 'includes/header.php';
       </div>
       <div class="contact-info-card">
         <h3><i class="fas fa-clock"></i> Business Hours</h3>
-        <p><?php echo SITE_HOURS_WEEKDAY; ?><br><?php echo SITE_HOURS_WEEKEND; ?></p>
+        <p><?php echo SITE_HOURS_WEEKDAY; ?><br>
+        <!-- <?php echo SITE_HOURS_WEEKEND; ?> -->
+      </p>
       </div>
 
       <!-- Help Center anchor -->

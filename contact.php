@@ -47,7 +47,7 @@ include 'includes/header.php';
     <div class="form-row">
         <div class="form-group">
             <label for="phone">Phone Number<span class="req">*</span></label>
-            <input type="tel" id="phone" name="phone" maxlength="10" placeholder="+1 (555) 000-0000"
+            <input type="tel" id="phone" name="phone" maxlength="11" placeholder="+1 (555) 000-0000"
                    value="<?php echo htmlspecialchars($_POST['phone'] ?? ''); ?>">
         </div>
         <div class="form-group">
@@ -68,14 +68,6 @@ include 'includes/header.php';
         <label for="message">Message <span class="req">*</span></label>
         <textarea id="message" name="message" rows="5" placeholder="Tell us what you need..." required><?php echo htmlspecialchars($_POST['message'] ?? ''); ?></textarea>
     </div>
-
-    <!-- Keep the reCAPTCHA -->
-     
-    <!-- <div id="recaptcha_contact" class="g-recaptcha" data-sitekey="6LeGRXIsAAAAACg_2or-4GcAB83alkDAQX2hKi-h" 
-         data-callback="onCaptchaSuccess_contact" style="margin-bottom:4%;"></div>
-    <span id="captchaError_contact" style="color:red; display:none; font-size:12px; margin-top:-10px; margin-bottom:10px;">
-        Please verify that you are not a robot.
-    </span> -->
 
     <button type="submit" class="btn btn-primary btn-lg btn-full" id="submit-btn">
         <i class="fas fa-paper-plane"></i> Send Message

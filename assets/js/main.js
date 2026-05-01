@@ -135,19 +135,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-
-
 document.addEventListener("DOMContentLoaded", function () {
-
+ 
     const form = document.getElementById("contact-form");
-
+ 
     form.addEventListener("submit", function (e) {
-
+ 
         let isValid = true;
-
+ 
         // Remove previous errors
         document.querySelectorAll(".validation-error").forEach(el => el.remove());
-
+ 
         /*
         |--------------------------------------------------------------------------
         | INPUT VALUES
@@ -157,153 +155,154 @@ document.addEventListener("DOMContentLoaded", function () {
         let email = document.getElementById("email").value.trim();
         let phone = document.getElementById("phone").value.trim();
         let message = document.getElementById("message").value.trim();
-
+ 
         /*
         |--------------------------------------------------------------------------
         | NAME VALIDATION
         |--------------------------------------------------------------------------
         */
         let nameRegex = /^[A-Za-z\s]+$/;
-
+ 
         if (name === "") {
-
+ 
             showError("name", "Full Name is required");
             isValid = false;
-
+ 
         } else if (!nameRegex.test(name)) {
-
+ 
             showError("name", "Only letters allowed");
             isValid = false;
         }
-
+ 
         /*
         |--------------------------------------------------------------------------
         | EMAIL VALIDATION
         |--------------------------------------------------------------------------
         */
         let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
+ 
         if (email === "") {
-
+ 
             showError("email", "Email is required");
             isValid = false;
-
+ 
         } else if (!emailRegex.test(email)) {
-
+ 
             showError("email", "Enter valid email");
             isValid = false;
         }
-
+ 
         /*
         |--------------------------------------------------------------------------
         | PHONE VALIDATION
         |--------------------------------------------------------------------------
         */
         let cleanPhone = phone.replace(/\D/g, '');
-
+ 
         if (phone === "") {
-
+ 
             showError("phone", "Phone Number is required");
             isValid = false;
-
+ 
         } else if (!/^[0-9]+$/.test(cleanPhone)) {
-
+ 
             showError("phone", "Only numbers allowed");
             isValid = false;
-
-        } else if (cleanPhone.length !== 10) {
-
+ 
+        } else if (cleanPhone.length !== 11) {
+ 
             showError("phone", "Phone Number must be 10 digits");
             isValid = false;
         }
-
+ 
         /*
         |--------------------------------------------------------------------------
         | MESSAGE VALIDATION
         |--------------------------------------------------------------------------
         */
         if (message === "") {
-
+ 
             showError("message", "Message is required");
             isValid = false;
         }
-
+ 
         /*
         |--------------------------------------------------------------------------
         | CAPTCHA VALIDATION
         |--------------------------------------------------------------------------
         */
         if (typeof grecaptcha !== "undefined") {
-
+ 
             let captchaResponse = grecaptcha.getResponse();
-
+ 
             if (captchaResponse.length === 0) {
-
+ 
                 document.getElementById("captchaError_contact").style.display = "block";
                 isValid = false;
-
+ 
             } else {
-
+ 
                 document.getElementById("captchaError_contact").style.display = "none";
             }
         }
-
+ 
         /*
         |--------------------------------------------------------------------------
         | STOP FORM SUBMIT
         |--------------------------------------------------------------------------
         */
         if (!isValid) {
-
+ 
             e.preventDefault();
             return false;
         }
-
+ 
     });
-
+ 
 });
-
+ 
 /*
 |--------------------------------------------------------------------------
 | SHOW ERROR FUNCTION
 |--------------------------------------------------------------------------
 */
 function showError(fieldId, message) {
-
+ 
     let field = document.getElementById(fieldId);
-
+ 
     let error = document.createElement("div");
-
+ 
     error.className = "validation-error";
-
+ 
     error.style.color = "red";
     error.style.fontSize = "13px";
     error.style.marginTop = "5px";
-
+ 
     error.innerText = message;
-
+ 
     field.parentNode.appendChild(error);
 }
-
-
+ 
+ 
 /*
 |--------------------------------------------------------------------------
 | SHOW ERROR FUNCTION
 |--------------------------------------------------------------------------
 */
 function showError(fieldId, message) {
-
+ 
     let field = document.getElementById(fieldId);
-
+ 
     let error = document.createElement("div");
-
+ 
     error.className = "validation-error";
-
+ 
     error.style.color = "red";
     error.style.fontSize = "13px";
     error.style.marginTop = "5px";
-
+ 
     error.innerText = message;
-
+ 
     field.parentNode.appendChild(error);
 }
+

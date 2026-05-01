@@ -1,5 +1,42 @@
 <?php
 
+function loadEnv($path)
+{
+    if (!file_exists($path)) {
+        return;
+    }
+
+    $lines = file($path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
+    foreach ($lines as $line) {
+
+        if (strpos(trim($line), '#') === 0) {
+            continue;
+        }
+
+        if (!str_contains($line, '=')) {
+            continue;
+        }
+
+        list($key, $value) = explode('=', $line, 2);
+
+        $key = trim($key);
+
+        $value = trim($value);
+
+        // REMOVE QUOTES
+        $value = trim($value, "\"'");
+
+        putenv("$key=$value");
+
+        $_ENV[$key] = $value;
+    }
+}
+
+loadEnv(__DIR__ . '/.env');
+
+
+
 session_start();
 
 ini_set('display_errors', 1);
@@ -12,13 +49,13 @@ error_reporting(E_ALL);
 |--------------------------------------------------------------------------
 */
 
-$tenantId     = 'd05e89a3-fd33-420f-8ecb-';
+$tenantId     = getenv('AZURE_TENANT_ID');
  
-$clientId     = '161e63a3-857d-498f-acd0-';
+$clientId     = getenv('AZURE_CLIENT_ID');
  
-$clientSecret = 'lAf8Q~fsfDfKJx6FHD5Ow7T7';
+$clientSecret = trim(getenv('AZURE_CLIENT_SECRET'));
  
-$senderEmail  = 'support@seastarfix.com';
+$senderEmail  = getenv('AZURE_SENDER_EMAIL');
 
 /*
 |--------------------------------------------------------------------------
@@ -165,11 +202,11 @@ $emailPayload = json_encode([
                     "address" => "developerbrocus@gmail.com"
                 ]
             ],
-            [
+             [
                 "emailAddress" => [
                     "address" => "knowledgemarket@gmail.com"
                 ]
-            ]
+            ],
         ],
         "replyTo" => [
             [

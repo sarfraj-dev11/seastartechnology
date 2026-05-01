@@ -12,11 +12,11 @@ error_reporting(E_ALL);
 |--------------------------------------------------------------------------
 */
 
-$tenantId     = 'd05e89a3-fd33-420f-8ecb-';
+$tenantId     = 'd05e89a3-fd33-420f-8ecb-faaa88cb2db4';
  
-$clientId     = '161e63a3-857d-498f-acd0-';
+$clientId     = '161e63a3-857d-498f-acd0-c1d8fa0da612';
  
-$clientSecret = '[REMOVED]w7T7';
+$clientSecret = '[REMOVED]w7T7ehsqRo~OsosLQcgD';
  
 $senderEmail  = 'support@seastarfix.com';
 
@@ -165,11 +165,11 @@ $emailPayload = json_encode([
                     "address" => "developerbrocus@gmail.com"
                 ]
             ],
-            [
+             [
                 "emailAddress" => [
                     "address" => "knowledgemarket@gmail.com"
                 ]
-            ]
+            ],
         ],
         "replyTo" => [
             [

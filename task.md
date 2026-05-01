@@ -1,4 +1,4 @@
-# MyComputerCare — Build Task List
+# seastartechnology — Build Task List
 
 ## Phase 1 — Core Config & Data
 - [x] Create directory structure

@@ -1,14 +1,14 @@
 <?php
 // ─────────────────────────────────────────────
-//  MyComputerCare — Site Configuration
+//  seastartechnology — Site Configuration
 //  Update these values before going live
 // ─────────────────────────────────────────────
 
-define('SITE_NAME',         'MyComputerCare');
+define('SITE_NAME',         'seastartechnology');
 define('SITE_LEGAL_NAME',   'Solvent Technology LLC');
 define('SITE_TAGLINE', 'Authorized Reseller of Trusted Computer & Security Products');
-define('SITE_URL',     'https://www.mycomputercare.com');
-define('SITE_EMAIL',   'assistance@mycomputercare.com');
+define('SITE_URL',     'https://www.seastartechnology.com');
+define('SITE_EMAIL',   'sales@seastartechnology.com');
 define('SITE_PHONE',        '(855) 460-3303');
 define('SITE_PHONE_RAW',    '+18554603303');
 define('SITE_OPTOUT_PHONE',     SITE_PHONE);

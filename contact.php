@@ -26,58 +26,61 @@ include 'includes/header.php';
       <div class="contact-card">
         <h2>Send Us a Message</h2>
         <p class="form-subtext">We typically respond within 1 business day.</p>
+        <form id="contact-form" method="POST" action="send_mail.php" novalidate>
+    <input type="hidden" name="form_token" value="1">
+    <!-- Honeypot -->
+    <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
 
-        <?php if(isset($response) && !empty($response['message'])): ?>
-          <div class="form-alert form-alert--<?php echo $response['success']?'success':'error'; ?>">
-            <i class="fas fa-<?php echo $response['success']?'check-circle':'exclamation-circle'; ?>"></i>
-            <?php echo htmlspecialchars($response['message']); ?>
-          </div>
-        <?php endif; ?>
+    <div class="form-row">
+        <div class="form-group">
+            <label for="name">Full Name <span class="req">*</span></label>
+            <input type="text" id="name" name="name" placeholder="John Smith" pattern="[A-Za-z\s]+" required
+                   value="<?php echo htmlspecialchars($_POST['name'] ?? ''); ?>">
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address <span class="req">*</span></label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required
+                   value="<?php echo htmlspecialchars($_POST['email'] ?? ''); ?>">
+        </div>
+    </div>
 
-        <form id="contact-form" method="POST" action="contact.php" novalidate>
-          <input type="hidden" name="form_token" value="1">
-          <!-- Honeypot -->
-          <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
-
-          <div class="form-row">
-            <div class="form-group">
-              <label for="name">Full Name <span class="req">*</span></label>
-              <input type="text" id="name" name="name" placeholder="John Smith" required
-                     value="<?php echo htmlspecialchars($_POST['name'] ?? ''); ?>">
-            </div>
-            <div class="form-group">
-              <label for="email">Email Address <span class="req">*</span></label>
-              <input type="email" id="email" name="email" placeholder="john@example.com" required
-                     value="<?php echo htmlspecialchars($_POST['email'] ?? ''); ?>">
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-group">
-              <label for="phone">Phone Number</label>
-              <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000"
-                     value="<?php echo htmlspecialchars($_POST['phone'] ?? ''); ?>">
-            </div>
-            <div class="form-group">
-              <label for="product_interest">Product Interest</label>
-              <select id="product_interest" name="product_interest">
+    <div class="form-row">
+        <div class="form-group">
+            <label for="phone">Phone Number<span class="req">*</span></label>
+            <input type="tel" id="phone" name="phone" maxlength="10" placeholder="+1 (555) 000-0000"
+                   value="<?php echo htmlspecialchars($_POST['phone'] ?? ''); ?>">
+        </div>
+        <div class="form-group">
+            <label for="product_interest">Product Interest</label>
+            <select id="product_interest" name="product_interest">
                 <option value="">— Select a product —</option>
                 <?php foreach($products as $prod): ?>
-                  <option value="<?php echo htmlspecialchars($prod['title']); ?>"
-                    <?php echo ($preset_product===$prod['title']||($_POST['product_interest']??'')===$prod['title'])?'selected':''; ?>>
-                    <?php echo htmlspecialchars($prod['title']); ?>
-                  </option>
+                    <option value="<?php echo htmlspecialchars($prod['title']); ?>"
+                        <?php echo ($preset_product===$prod['title']||($_POST['product_interest']??'')===$prod['title'])?'selected':''; ?>>
+                        <?php echo htmlspecialchars($prod['title']); ?>
+                    </option>
                 <?php endforeach; ?>
-              </select>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="message">Message <span class="req">*</span></label>
-            <textarea id="message" name="message" rows="5" placeholder="Tell us what you need..." required><?php echo htmlspecialchars($_POST['message'] ?? ''); ?></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary btn-lg btn-full" id="submit-btn">
-            <i class="fas fa-paper-plane"></i> Send Message
-          </button>
-        </form>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="message">Message <span class="req">*</span></label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell us what you need..." required><?php echo htmlspecialchars($_POST['message'] ?? ''); ?></textarea>
+    </div>
+
+    <!-- Keep the reCAPTCHA -->
+     
+    <!-- <div id="recaptcha_contact" class="g-recaptcha" data-sitekey="6LeGRXIsAAAAACg_2or-4GcAB83alkDAQX2hKi-h" 
+         data-callback="onCaptchaSuccess_contact" style="margin-bottom:4%;"></div>
+    <span id="captchaError_contact" style="color:red; display:none; font-size:12px; margin-top:-10px; margin-bottom:10px;">
+        Please verify that you are not a robot.
+    </span> -->
+
+    <button type="submit" class="btn btn-primary btn-lg btn-full" id="submit-btn">
+        <i class="fas fa-paper-plane"></i> Send Message
+    </button>
+</form>
       </div>
     </div>
 

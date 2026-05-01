@@ -59,7 +59,7 @@ function products_url($slug = '') {
   <div class="container header-inner">
     <a href="<?php echo isset($depth) ? $depth : ''; ?>index.php" class="logo">
       <div class="logo-icon">
-        <img src="../assets/images/icons/seastartechnology logo.png" alt="seastartechnology Logo">
+        <img src="assets/images/icons/seastartechnology-logo.png" alt="seastartechnology Logo">
         <!-- <i class="fas fa-laptop-medical"></i> -->
     </div>
       <!-- <div class="logo-text">

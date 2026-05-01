@@ -30,7 +30,7 @@
       <div class="footer-col footer-brand-col">
         <div class="footer-logo">
           <div class="logo-icon">
-             <img src="../assets/images/icons/seastartechnology logo.png" alt="seastartechnology Logo">
+             <img src="assets/images/icons/seastartechnology-logo.png" alt="seastartechnology Logo">
         </div>
           <!-- <span class="logo-name">seastartechnology</span> -->
         </div>

@@ -25,7 +25,7 @@
   border: 1px solid var(--border);
   border-radius: var(--r-md);
   overflow: hidden;
-  background: #fff;
+  background: var(--bg-alt);
 }
 
 .stat-item {
@@ -43,7 +43,7 @@
   font-size: 2rem;
   font-weight: 800;
   font-family: var(--font-h);
-  color: var(--primary);
+  color: var(--cta);
 }
 
 .stat-label {
@@ -61,7 +61,7 @@
 }
 
 .about-icon-card {
-  background: #fff;
+  background: var(--bg-alt);
   border: 1px solid var(--border);
   border-radius: var(--r-lg);
   padding: 1.5rem;
@@ -72,12 +72,12 @@
 .about-icon-card:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow);
-  border-color: #b2c2bf;
+  border-color: var(--accent);
 }
 
 .about-icon-card i {
   font-size: 1.65rem;
-  color: var(--primary);
+  color: var(--accent);
   margin-bottom: .55rem;
   display: block;
 }
@@ -93,7 +93,7 @@
 }
 
 .contact-card {
-  background: #fff;
+  background: var(--bg-alt);
   border: 1px solid var(--border);
   border-radius: var(--r-xl);
   padding: 2.25rem;
@@ -102,20 +102,12 @@
 
 .contact-card h2 { font-size: 1.45rem; margin-bottom: .32rem }
 
-.form-subtext {
-  color: var(--text-2);
-  font-size: .855rem;
-  margin-bottom: 1.5rem;
-}
+.form-subtext { color: var(--text-2); font-size: .855rem; margin-bottom: 1.5rem }
 
-.contact-info-col {
-  display: flex;
-  flex-direction: column;
-  gap: .9rem;
-}
+.contact-info-col { display: flex; flex-direction: column; gap: .9rem }
 
 .contact-info-card {
-  background: #fff;
+  background: var(--bg-alt);
   border: 1px solid var(--border);
   border-radius: var(--r-lg);
   padding: 1.15rem 1.25rem;
@@ -130,7 +122,7 @@
   margin-bottom: .45rem;
 }
 
-.contact-info-card h3 i { color: var(--primary) }
+.contact-info-card h3 i { color: var(--accent) }
 .contact-info-card p { font-size: .845rem; color: var(--text-2); line-height: 1.62 }
 
 .contact-link-lg {
@@ -141,11 +133,11 @@
   margin-bottom: .3rem;
 }
 
-.contact-link-lg:hover { color: var(--primary-h) }
+.contact-link-lg:hover { color: var(--accent) }
 
 .help-anchor {
-  border-color: #b2c2bf;
-  background: #c0ded9;
+  border-color: var(--accent);
+  background: var(--bg-sec);
 }
 
 .help-anchor h3 { color: var(--primary) }
@@ -160,7 +152,7 @@
   color: var(--text-3);
 }
 
-.map-placeholder-inner { text-align: center, }
+.map-placeholder-inner { text-align: center }
 .map-placeholder-inner i { font-size: 2.25rem; margin-bottom: .45rem; display: block }
 .map-placeholder-inner p { font-size: .82rem }
 
@@ -172,20 +164,10 @@
   margin-bottom: 1rem;
 }
 
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: .38rem;
-  margin-bottom: 1rem;
-}
+.form-group { display: flex; flex-direction: column; gap: .38rem; margin-bottom: 1rem }
 
-.form-group label {
-  font-size: .8rem;
-  font-weight: 600;
-  color: var(--text-2);
-}
-
-.form-group .req { color: #DC2626 }
+.form-group label { font-size: .8rem; font-weight: 600; color: var(--text-2) }
+.form-group .req { color: var(--alert) }
 
 .form-group input,
 .form-group select,
@@ -206,18 +188,13 @@
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: var(--primary-l);
-  background: #fff;
-  box-shadow: 0 0 0 3px rgba(24,160,90,.12);
+  border-color: var(--accent);
+  background: var(--bg-alt);
+  box-shadow: 0 0 0 3px rgba(46,196,182,.15);
 }
 
-.form-group textarea {
-  resize: vertical;
-  min-height: 115px;
-  line-height: 1.6;
-}
-
-.form-group select option { background: #fff; color: var(--text) }
+.form-group textarea { resize: vertical; min-height: 115px; line-height: 1.6 }
+.form-group select option { background: var(--bg-alt); color: var(--text) }
 
 .form-alert {
   display: flex;
@@ -231,19 +208,18 @@
 
 .form-alert--success {
   background: var(--success-bg);
-  border: 1px solid #B7E1C6;
-  color: #1A5C36;
+  border: 1px solid var(--border);
+  color: var(--primary);
 }
 
 .form-alert--error {
-  background: #FEE2E2;
-  border: 1px solid #FECACA;
-  color: #991B1B;
+  background: var(--warn-bg);
+  border: 1px solid rgba(231,29,54,.25);
+  color: var(--alert);
 }
 
 /* ── Policy Pages ── */
 .policy-section { background: var(--bg) }
-
 .policy-content { max-width: 820px; margin: 0 auto }
 
 .policy-content p {
@@ -269,16 +245,10 @@
   gap: .45rem;
 }
 
-.policy-content li {
-  color: var(--text-2);
-  font-size: .9rem;
-  line-height: 1.7;
-  padding-left: .45rem;
-}
-
+.policy-content li { color: var(--text-2); font-size: .9rem; line-height: 1.7; padding-left: .45rem }
 .policy-content ul li { list-style: disc }
 .policy-content ol li { list-style: decimal }
-.policy-content a    { color: var(--primary-l) }
+.policy-content a    { color: var(--accent) }
 .policy-content strong { color: var(--text) }
 
 .policy-table {
@@ -287,6 +257,7 @@
   margin: 1rem 0 1.25rem;
   font-size: .875rem;
 }
+
 .policy-table th,
 .policy-table td {
   text-align: left;
@@ -295,12 +266,14 @@
   color: var(--text-2);
   line-height: 1.5;
 }
+
 .policy-table thead th {
-  background: var(--success-bg);
+  background: var(--bg-sec);
   color: var(--text);
   font-weight: 700;
   font-size: .78rem;
   text-transform: uppercase;
   letter-spacing: .05em;
 }
+
 .policy-table tbody tr:nth-child(even) { background: var(--bg) }

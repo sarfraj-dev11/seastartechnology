@@ -21,7 +21,7 @@
   .hamburger{display:flex;flex-direction:column;justify-content:space-between}
   .main-nav{
     position:fixed;top:0;right:-280px;width:280px;height:100vh;
-    background:#fff;z-index:999;padding:5rem 1.5rem 2rem;
+    background:var(--bg-alt);z-index:999;padding:5rem 1.5rem 2rem;
     transition:right .32s ease;
     box-shadow:-6px 0 30px rgba(15,90,45,.12);
     border-left:1px solid var(--border)

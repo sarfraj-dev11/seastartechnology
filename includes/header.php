@@ -34,6 +34,7 @@ function products_url($slug = '') {
   <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <!-- CSS -->
+  <link rel="stylesheet" href="<?php echo isset($depth) ? $depth : ''; ?>assets/css/theme.css">
   <link rel="stylesheet" href="<?php echo isset($depth) ? $depth : ''; ?>assets/css/base.css">
   <link rel="stylesheet" href="<?php echo isset($depth) ? $depth : ''; ?>assets/css/layout.css">
   <link rel="stylesheet" href="<?php echo isset($depth) ? $depth : ''; ?>assets/css/home.css">

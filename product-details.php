@@ -154,21 +154,18 @@ include 'includes/header.php';
   </div>
 </section>
 
-<!-- What It Fixes -->
+
+<!-- Key Features -->
 <section class="section pd-problems-section">
   <div class="container">
-    <h2 class="section-title product-problems-sections">Key Product Benefits</h2>
-    <p class="product-problems-sections-subheading">We are a retailer of consumer technology products and do not provide standalone technical support services</p>
+    <h2 class="section-title">Key Features</h2>
     <div class="problems-grid">
-      <?php foreach($p['problem_solved'] as $prob): ?>
+      <?php foreach($p['problem_solved'] as $feature): ?>
       <div class="problem-card">
-        <div class="problem-icon"><i class="fas fa-triangle-exclamation"></i></div>
+        <i class="fas fa-check-circle" style="color:#22c55e;font-size:1.3rem;flex-shrink:0;"></i>
         <div class="problem-text">
-          <span class="problem-label">Issue</span>
-          <span><?php echo htmlspecialchars($prob); ?></span>
+          <span><?php echo htmlspecialchars($feature); ?></span>
         </div>
-        <i class="fas fa-arrow-right problem-arrow"></i>
-        <div class="solution-label"><i class="fas fa-check-circle"></i> Solved</div>
       </div>
       <?php endforeach; ?>
     </div>

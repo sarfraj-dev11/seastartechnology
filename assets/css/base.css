@@ -1,27 +1,7 @@
-/* base.css — Variables · Reset · Typography · Buttons · Utilities */
+/* base.css — Reset · Typography · Buttons · Utilities
+   Color variables live in theme.css              */
 
 :root {
-  --bg:        #eaece5;
-  --bg-alt:    #ffffff;
-  --surface:   #ffffff;
-  --card:      #ffffff;
-  --border:    #b2c2bf;
-  --border-lt: #d4dedd;
-
-  --primary:   #3b3a30;
-  --primary-h: #252520;
-  --primary-l: #c0ded9;
-  --accent:    #8fa8a3;
-
-  --success:   #3b3a30;
-  --success-bg:#eaece5;
-  --warn:      #7a6830;
-  --warn-bg:   #f5f0dc;
-
-  --text:      #3b3a30;
-  --text-2:    #5c5b50;
-  --text-3:    #8c8b7c;
-
   --font-h: 'Outfit', sans-serif;
   --font-b: 'Inter', sans-serif;
 
@@ -29,10 +9,6 @@
   --r-md: 9px;
   --r-lg: 14px;
   --r-xl: 20px;
-
-  --shadow-sm: 0 1px 4px rgba(59,58,48,.07), 0 2px 10px rgba(59,58,48,.05);
-  --shadow:    0 4px 18px rgba(59,58,48,.10), 0 1px 4px rgba(59,58,48,.06);
-  --shadow-lg: 0 10px 40px rgba(59,58,48,.13), 0 2px 8px rgba(59,58,48,.07);
 
   --t: .22s ease;
   --max-w: 1200px;
@@ -52,7 +28,7 @@ body {
 
 body.nav-open { overflow: hidden }
 
-a { color: var(--primary-l); text-decoration: none; transition: var(--t) }
+a { color: var(--accent); text-decoration: none; transition: var(--t) }
 a:hover { color: var(--primary) }
 
 img { max-width: 100%; height: auto; display: block }
@@ -93,17 +69,18 @@ h1,h2,h3,h4,h5,h6 {
 .btn-lg  { padding: .75rem 1.85rem; font-size: .95rem }
 .btn-full { width: 100%; justify-content: center }
 
+/* Orange primary CTA */
 .btn-primary {
-  background: var(--primary);
-  color: #fff;
-  border-color: var(--primary);
-  box-shadow: 0 2px 8px rgba(59,58,48,.25);
+  background: var(--cta);
+  color: var(--primary);
+  border-color: var(--cta);
+  box-shadow: 0 2px 8px rgba(255,159,28,.30);
 }
 .btn-primary:hover {
-  background: var(--primary-h);
-  border-color: var(--primary-h);
-  box-shadow: 0 4px 16px rgba(59,58,48,.35);
-  color: #fff;
+  background: var(--cta-h);
+  border-color: var(--cta-h);
+  box-shadow: 0 4px 16px rgba(255,159,28,.42);
+  color: var(--primary);
   transform: translateY(-1px);
 }
 
@@ -114,32 +91,32 @@ h1,h2,h3,h4,h5,h6 {
 }
 .btn-outline:hover {
   background: var(--primary);
-  color: #fff;
+  color: var(--bg);
   transform: translateY(-1px);
 }
 
 .btn-white {
-  background: #fff;
+  background: var(--bg);
   color: var(--primary);
-  border-color: #fff;
+  border-color: var(--bg);
   box-shadow: 0 2px 8px rgba(0,0,0,.1);
 }
 .btn-white:hover {
-  background: #eaece5;
-  border-color: #eaece5;
-  color: var(--primary-h);
+  background: var(--bg-sec);
+  border-color: var(--bg-sec);
+  color: var(--primary);
   transform: translateY(-1px);
 }
 
 .btn-outline-white {
   background: transparent;
-  color: #fff;
-  border-color: rgba(255,255,255,.55);
+  color: var(--bg);
+  border-color: rgba(253,255,252,.55);
 }
 .btn-outline-white:hover {
-  background: rgba(255,255,255,.12);
-  border-color: #fff;
-  color: #fff;
+  background: rgba(253,255,252,.12);
+  border-color: var(--bg);
+  color: var(--bg);
 }
 
 /* ── Sections ── */
@@ -155,14 +132,14 @@ h1,h2,h3,h4,h5,h6 {
   display: inline-block;
   padding: .28rem .9rem;
   border-radius: 99px;
-  background: #c0ded9;
+  background: rgba(46,196,182,.15);
   color: var(--primary);
   font-size: .72rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .1em;
   margin-bottom: .7rem;
-  border: 1px solid #b2c2bf;
+  border: 1px solid rgba(46,196,182,.3);
 }
 
 .section-title   { font-size: 2.1rem; margin-bottom: .65rem }
@@ -170,7 +147,7 @@ h1,h2,h3,h4,h5,h6 {
 .section-cta     { text-align: center; margin-top: 2.5rem }
 
 .gradient-text {
-  background: linear-gradient(135deg, #3b3a30, #8fa8a3);
+  background: linear-gradient(135deg, #2EC4B6, #011627);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

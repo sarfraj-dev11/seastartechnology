@@ -81,7 +81,7 @@ include 'includes/header.php';
       <div class="contact-info-card">
         <h3><i class="fas fa-phone"></i> Phone</h3>
         <a href="tel:<?php echo SITE_PHONE_RAW; ?>" class="contact-link-lg"><?php echo SITE_PHONE; ?></a>
-        <p>Call for immediate product assistance or order inquiries.</p>
+        <p>Call for sales inquiries and order questions.</p>
       </div>
       <div class="contact-info-card">
         <h3><i class="fas fa-envelope"></i> Email</h3>
@@ -99,9 +99,8 @@ include 'includes/header.php';
       </p>
       </div>
 
-      <!-- Help Center anchor -->
-      <div class="contact-info-card help-anchor" id="help">
-        <h3><i class="fas fa-circle-question"></i> Help Center</h3>
+      <div class="contact-info-card help-anchor" id="questions">
+        <h3><i class="fas fa-circle-question"></i> Order & Shipping Questions</h3>
         <p>Questions about an existing order or need to track a shipment? Call us or send a message — our team is here to help with sales and order inquiries.</p>
         <a href="tel:<?php echo SITE_PHONE_RAW; ?>" class="btn btn-primary"><?php echo SITE_PHONE; ?></a>
       </div>

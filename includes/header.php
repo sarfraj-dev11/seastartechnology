@@ -34,6 +34,7 @@ function products_url($slug = '') {
   <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <!-- CSS -->
+  <link rel="stylesheet" href="<?php echo isset($depth) ? $depth : ''; ?>assets/css/theme.css">
   <link rel="stylesheet" href="<?php echo isset($depth) ? $depth : ''; ?>assets/css/base.css">
   <link rel="stylesheet" href="<?php echo isset($depth) ? $depth : ''; ?>assets/css/layout.css">
   <link rel="stylesheet" href="<?php echo isset($depth) ? $depth : ''; ?>assets/css/home.css">
@@ -74,7 +75,7 @@ function products_url($slug = '') {
         <li><a href="<?php echo isset($depth) ? $depth : ''; ?>products.php" class="<?php echo nav_class('products'); ?>">Products</a></li>
         <li><a href="<?php echo isset($depth) ? $depth : ''; ?>about.php" class="<?php echo nav_class('about'); ?>">About Us</a></li>
         <li><a href="<?php echo isset($depth) ? $depth : ''; ?>contact.php" class="<?php echo nav_class('contact'); ?>">Contact</a></li>
-        <li><a href="<?php echo isset($depth) ? $depth : ''; ?>contact.php#help" class="nav-help"><i class="fas fa-circle-question"></i> Help Center</a></li>
+        <li><a href="<?php echo isset($depth) ? $depth : ''; ?>contact.php#questions" class="nav-help"><i class="fas fa-circle-question"></i> Any Questions</a></li>
       </ul>
     </nav>
 

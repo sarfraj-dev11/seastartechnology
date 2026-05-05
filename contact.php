@@ -14,7 +14,7 @@ include 'includes/header.php';
   <div class="container">
     <div class="section-badge">Get in Touch</div>
     <h1>Contact Us</h1>
-    <p>Have a question about a product or your order? We're here to help. Reach us by phone, email, or the form below.</p>
+    <p>Have a question about a product or your order? We're here to serve you. Reach us by phone, email, or the form below.</p>
   </div>
 </section>
 
@@ -101,7 +101,7 @@ include 'includes/header.php';
 
       <div class="contact-info-card help-anchor" id="questions">
         <h3><i class="fas fa-circle-question"></i> Order & Shipping Questions</h3>
-        <p>Questions about an existing order or need to track a shipment? Call us or send a message — our team is here to help with sales and order inquiries.</p>
+        <p>Questions about an existing order or need to track a shipment? Call us or send a message — our team is here to serve you with sales and order inquiries.</p>
         <a href="tel:<?php echo SITE_PHONE_RAW; ?>" class="btn btn-primary"><?php echo SITE_PHONE; ?></a>
       </div>
     </div>

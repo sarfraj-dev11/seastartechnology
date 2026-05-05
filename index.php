@@ -43,7 +43,7 @@ include 'includes/header.php';
         <span><i class="fas fa-lock"></i> Secure Checkout</span>
         <span><i class="fas fa-rotate-left"></i> 30-Day Returns</span>
         <span><i class="fas fa-truck-fast"></i> Fast Shipping</span>
-        <span><i class="fas fa-headset"></i> Activation Help Included</span>
+        <span><i class="fas fa-headset"></i> Activation Guidance Included</span>
       </div>
     </div>
     <div class="hero-visual">
@@ -258,7 +258,7 @@ $display_images = array_slice($promo_images, 0, 3);
       </div>
       <div class="usp-card">
         <div class="usp-icon"><i class="fas fa-star"></i></div>
-        <h3>Trusted by Thousands</h3>
+        <h3>US-Based & Registered</h3>
         <p>Serving customers across the United States with genuine products and excellent service.</p>
       </div>
     </div>

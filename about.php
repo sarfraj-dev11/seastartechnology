@@ -69,14 +69,14 @@ include 'includes/header.php';
       </div>
       <div class="usp-card usp-card--highlight">
         <div class="usp-icon"><i class="fas fa-headset"></i></div>
-        <h3>Product Activation Help</h3>
+        <h3>Product Activation Guidance</h3>
         <p>One-time activation guidance is included with eligible software purchases to confirm your license is registered correctly.</p>
         <div class="usp-highlight-badge">Included</div>
       </div>
       <div class="usp-card">
         <div class="usp-icon"><i class="fas fa-handshake"></i></div>
         <h3>Honest, Transparent Pricing</h3>
-        <p>No hidden fees. The price you see is what you pay. Software renewals often 20–30% below manufacturer retail.</p>
+        <p>No hidden fees. The price you see is what you pay — with competitive rates on renewals and bundles across our full product catalog.</p>
       </div>
     </div>
   </div>

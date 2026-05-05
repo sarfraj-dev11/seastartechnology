@@ -15,6 +15,10 @@
   .cta-banner-actions{justify-content:center}
 }
 
+.none{
+  display:none;
+}
+
 /* ── Mobile ≤ 768px ── */
 @media (max-width:768px){
   /* Nav */
@@ -22,6 +26,9 @@
     display:block !important;
     width:stretch;
   }
+  .none{
+  display:block;
+}
   .hamburger{display:flex;flex-direction:column;justify-content:space-between}
   .main-nav{
     position:fixed;top:0;right:-280px;width:280px;height:100vh;

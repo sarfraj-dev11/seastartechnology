@@ -35,7 +35,7 @@ include 'includes/header.php';
 <p>All prices are communicated before purchase. We accept major credit and debit cards. You agree to provide accurate payment information. Prices and availability are subject to change and reflected on our website.</p>
 
 <h2>5. Software Licensing</h2>
-<p>Software products are licensed to you by their respective manufacturers, not by <?php echo SITE_LEGAL_NAME; ?>. We facilitate the sale and installation only. All manufacturer terms, warranties, and end-user license agreements (EULAs) apply. Neither title nor intellectual property rights transfer to you through us. You may not copy, sublicense, decompile, or reverse engineer any software purchased through us.</p>
+<p>Software products are licensed to you by their respective manufacturers, not by <?php echo SITE_LEGAL_NAME; ?>. We will facilitate the sale only. All manufacturer terms, warranties, and end-user license agreements (EULAs) apply. Neither title nor intellectual property rights transfer to you through us. You may not copy, sublicense, decompile, or reverse engineer any software purchased through us.</p>
 
 <h2>6. Refund Policy</h2>
 <p>Software keys are eligible for a full refund within 30 days of purchase if unactivated or proven non-functional. Once a software key has been successfully activated, it is non-refundable per manufacturer licensing terms. Physical products may be returned within 30 days if unopened and in original condition. See our full <a href="refund.php">Refund Policy</a> for complete details.</p>
@@ -44,9 +44,8 @@ include 'includes/header.php';
 <p>License activation guidance is included with eligible software purchases. We use approved remote-access tools solely to help confirm your license is registered correctly. Remote access is initiated only with your explicit consent. You may terminate the session at any time. We use commercially reasonable efforts to maintain confidentiality of any information visible during the session.</p>
 <p><strong>Your Responsibilities:</strong></p>
 <ul>
-  <li>Maintain a stable broadband internet connection</li>
-  <li>Remain present at your computer during installation</li>
-  <li>Back up all data before the session — we are not liable for data loss</li>
+  <li>Maintain a stable broadband internet connection during the activation process</li>
+  <li>Ensure your system meets minimum requirements before the activation session</li>
   <li>Provide legitimate operating system and software licenses if required</li>
 </ul>
 

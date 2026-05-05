@@ -43,7 +43,7 @@ include 'includes/header.php';
 <h2>5. How We Use Your Information</h2>
 <ul>
   <li>Process your software purchase inquiry</li>
-  <li>Coordinate product delivery and remote installation</li>
+  <li>Coordinate product delivery and license activation</li>
   <li>Improve Site functionality and user experience</li>
   <li>Measure advertising campaign effectiveness</li>
   <li>Prevent fraud and ensure security</li>

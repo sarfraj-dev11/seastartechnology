@@ -41,7 +41,7 @@ include 'includes/header.php';
 <p>Software keys are eligible for a full refund within 30 days of purchase if unactivated or proven non-functional. Once a software key has been successfully activated, it is non-refundable per manufacturer licensing terms. Physical products may be returned within 30 days if unopened and in original condition. See our full <a href="refund.php">Refund Policy</a> for complete details.</p>
 
 <h2>7. Activation Guidance</h2>
-<p>License activation guidance is included with eligible software purchases. We use approved remote-access tools solely to help confirm your license is registered correctly. Remote access is initiated only with your explicit consent. You may terminate the session at any time. We use commercially reasonable efforts to maintain confidentiality of any information visible during the session.</p>
+<p>License activation guidance is included with eligible software purchases. We use approved remote-access tools solely to confirm your license is registered correctly. Remote access is initiated only with your explicit consent. You may terminate the session at any time. We use commercially reasonable efforts to maintain confidentiality of any information visible during the session.</p>
 <p><strong>Your Responsibilities:</strong></p>
 <ul>
   <li>Maintain a stable broadband internet connection during the activation process</li>

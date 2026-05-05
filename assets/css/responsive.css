@@ -54,7 +54,7 @@
   .pd-price{font-size:1.7rem}
   .pd-cta-group{flex-direction:column}
   .pd-cta-group .btn{width:100%;justify-content:center}
-  .sticky-cta-mobile{display:block}
+  .sticky-cta-mobile{display:flex}
   .problems-grid{grid-template-columns:1fr}
 
   /* Contact */

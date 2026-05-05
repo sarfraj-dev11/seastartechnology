@@ -459,10 +459,24 @@
   left: 0;
   right: 0;
   z-index: 900;
-  padding: .9rem 1.2rem;
+  padding: .75rem .85rem;
   background: var(--bg-alt);
   border-top: 1px solid var(--border);
   box-shadow: 0 -6px 24px rgba(1,22,39,.12);
+  flex-direction: row;
+  gap: .5rem;
+  align-items: stretch;
+}
+
+.sticky-cta-mobile .btn {
+  flex-shrink: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  font-size: .78rem;
+  min-width: 0;
 }
 
 .sticky-call-btn { width: 100%; justify-content: center }

@@ -64,16 +64,21 @@ include 'includes/header.php';
       <div class="pd-price">$<?php echo htmlspecialchars($p['price']); ?></div>
       <p style="font-size:0.85rem;color:#22c55e;margin-bottom:0.5rem;"><i class="fas fa-circle-check"></i> In Stock &middot; Ships within 1–2 business days from US warehouse</p>
       <p class="pd-short-desc"><?php echo htmlspecialchars($p['short_desc']); ?></p>
-      <p class="product-pricing">(* Pricing may vary depending on your region and product variants.)</p>
+      <p class="product-pricing">(* Pricing may vary - specify your edition when placing your order.)</p>
 
       <div class="pd-cta-group">
-        <a href="tel:<?php echo SITE_PHONE_RAW; ?>" class="btn btn-primary btn-lg pd-cta">
-          <i class="fas fa-phone"></i> Order by Phone: <?php echo SITE_PHONE; ?>
+        <a href="mailto:<?php echo SITE_EMAIL; ?>?subject=Purchase%20Order%20%E2%80%93%20<?php echo rawurlencode($p['title']); ?>%20(%24<?php echo rawurlencode($p['price']); ?>)&body=Hi%20Seastar%20Technology%20Team%2C%0A%0AI%20would%20like%20to%20purchase%3A%0AProduct%3A%20<?php echo rawurlencode($p['title']); ?>%0APrice%3A%20%24<?php echo rawurlencode($p['price']); ?>%0A%0APlease%20send%20me%20a%20secure%20payment%20invoice.%0A%0AName%3A%0APhone%3A%0AShipping%20Address%20(if%20physical)%3A%0A%0AThank%20you."
+           class="btn btn-primary btn-lg pd-cta">
+          <i class="fas fa-cart-shopping"></i> Order Now — Invoice by Email
         </a>
-        <a href="contact.php?product=<?php echo urlencode($p['title']); ?>" class="btn btn-outline btn-lg">
-          <i class="fas fa-envelope"></i> Send Inquiry
+        <a href="tel:<?php echo SITE_PHONE_RAW; ?>" class="btn btn-outline btn-lg">
+          <i class="fas fa-phone"></i> Call Sales: <?php echo SITE_PHONE; ?>
         </a>
       </div>
+      <p style="font-size:.82rem;color:var(--text-3);margin-top:.6rem;">
+        <i class="fas fa-circle-check" style="color:var(--success);"></i>
+        We'll email a secure payment link within 1 business hour &middot; No account needed
+      </p>
 
         <!-- Description -->
       <div class="pd-block">
@@ -118,28 +123,28 @@ include 'includes/header.php';
       <div class="buy-step">
         <div class="buy-step-number">1</div>
         <div class="buy-step-content">
-          <strong>Find Your Product</strong>
+          <strong>Select Your Product</strong>
           <p>Browse our catalog and select the product that fits your needs.</p>
         </div>
       </div>
       <div class="buy-step">
         <div class="buy-step-number">2</div>
         <div class="buy-step-content">
-          <strong>Call Our Sales Person</strong>
-          <p>Reach out to our sales team directly to get expert guidance.</p>
+          <strong>Request Invoice</strong>
+          <p>Reach out to our sales representative directly to get expert guidance.</p>
         </div>
       </div>
       <div class="buy-step">
         <div class="buy-step-number">3</div>
         <div class="buy-step-content">
           <strong>Select your edition at checkout</strong>
-          <p>Talk through available versions, licenses, and options with our team.</p>
+          <p>Talk through available versions, licenses, and options with our sales representative.</p>
         </div>
       </div>
       <div class="buy-step">
         <div class="buy-step-number">4</div>
         <div class="buy-step-content">
-          <strong>Receive Official Pricing via Email</strong>
+          <strong>Get Official Quote</strong>
           <p>We send you a formal pricing quote before any commitment is made.</p>
         </div>
       </div>
@@ -147,7 +152,7 @@ include 'includes/header.php';
         <div class="buy-step-number">5</div>
         <div class="buy-step-content">
           <strong>Secure Payment &amp; Invoice</strong>
-          <p>Complete your payment securely and receive an official invoice on your email.</p>
+          <p>Pay securely online. Software delivered within 24 hrs. Hardware ships in 1–2 business days.</p>
         </div>
       </div>
     </div>
@@ -233,8 +238,13 @@ include 'includes/header.php';
 
 <!-- Sticky Mobile CTA -->
 <div class="sticky-cta-mobile" id="sticky-cta">
-  <a href="tel:<?php echo SITE_PHONE_RAW; ?>" class="btn btn-primary btn-lg sticky-call-btn">
-    <i class="fas fa-phone"></i> Order by Phone: <?php echo SITE_PHONE; ?>
+  <a href="mailto:<?php echo SITE_EMAIL; ?>?subject=Purchase%20Order%20%E2%80%93%20<?php echo rawurlencode($p['title']); ?>%20(%24<?php echo rawurlencode($p['price']); ?>)&body=Hi%20Seastar%20Technology%20Team%2C%0A%0AI%20would%20like%20to%20purchase%3A%0AProduct%3A%20<?php echo rawurlencode($p['title']); ?>%0APrice%3A%20%24<?php echo rawurlencode($p['price']); ?>%0A%0APlease%20send%20me%20a%20secure%20payment%20invoice.%0A%0AName%3A%0APhone%3A%0AShipping%20Address%20(if%20physical)%3A%0A%0AThank%20you."
+     class="btn btn-primary" style="flex:6;justify-content:center;">
+    <i class="fas fa-cart-shopping"></i> Invoice by Email
+  </a>
+  <a href="tel:<?php echo SITE_PHONE_RAW; ?>"
+     class="btn btn-outline" style="flex:4;justify-content:center;padding-left:.5rem;padding-right:.5rem;">
+    <i class="fas fa-phone"></i> Call Sales
   </a>
 </div>
 

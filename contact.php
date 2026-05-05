@@ -46,7 +46,7 @@ include 'includes/header.php';
 
     <div class="form-row">
         <div class="form-group">
-            <label for="phone">Phone Number<span class="req">*</span></label>
+            <label for="phone">Phone Number <span style="font-size:.75rem;color:var(--text-3);font-weight:400;">(optional)</span></label>
             <input type="tel" id="phone" name="phone" maxlength="11" placeholder="+1 (555) 000-0000"
                    value="<?php echo htmlspecialchars($_POST['phone'] ?? ''); ?>">
         </div>
@@ -109,12 +109,6 @@ include 'includes/header.php';
   </div>
 </section>
 
-<!-- Map Placeholder -->
-<div class="map-placeholder">
-  <div class="map-placeholder-inner">
-    <i class="fas fa-map-location-dot"></i>
-    <p>Map embed — replace with your Google Maps iframe in contact.php</p>
-  </div>
-</div>
+
 
 <?php include 'includes/footer.php'; ?>

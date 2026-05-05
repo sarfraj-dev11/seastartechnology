@@ -132,7 +132,7 @@ include 'includes/header.php';
       <div class="buy-step">
         <div class="buy-step-number">3</div>
         <div class="buy-step-content">
-          <strong>Discuss Variants</strong>
+          <strong>Select your edition at checkout</strong>
           <p>Talk through available versions, licenses, and options with our team.</p>
         </div>
       </div>

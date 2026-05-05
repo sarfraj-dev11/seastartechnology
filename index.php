@@ -159,7 +159,7 @@ include 'includes/header.php';
       <div class="usp-card">
         <div class="usp-icon"><i class="fas fa-star"></i></div>
         <h3>Trusted by Thousands</h3>
-        <p>Thousands of customers across the US rely on Seastar Technology for their technology purchases every year.</p>
+        <p>Serving customers across the United States with genuine products and excellent service.</p>
       </div>
     </div>
   </div>

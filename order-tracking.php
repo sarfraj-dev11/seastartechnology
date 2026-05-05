@@ -1,12 +1,18 @@
 <?php
 require_once 'includes/config.php';
 $page_title = 'Order Tracking';
-$page_desc  = 'Track your order from Seastar Technology. Contact us with your order number and we will provide a shipping update.';
+$page_desc  = 'Track your Seastar Technology order. All physical shipments include a tracking number sent to your email. Contact us with your order number for a status update.';
 include 'includes/header.php';
 ?>
 
 <section class="page-hero page-hero--sm">
   <div class="container">
+    <div class="breadcrumb-bar">
+      <a href="index.php">Home</a>
+      <i class="fas fa-chevron-right"></i>
+      <span>Order Tracking</span>
+    </div>
+    <span class="section-badge"><i class="fas fa-box"></i> Orders</span>
     <h1>Order Tracking</h1>
     <p>Need an update on your order? We'll get you the information you need.</p>
   </div>
@@ -23,6 +29,9 @@ include 'includes/header.php';
       <li>If you did not receive a tracking email, contact us and we will locate your shipment.</li>
     </ol>
 
+    <h2>Software & Digital Orders</h2>
+    <p>Digital license keys and software downloads are delivered by email within 24 hours of order confirmation. Check your inbox and spam folder. If you have not received your license key after 24 hours, contact us immediately at <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a>.</p>
+
     <h2>Contact Us for Order Status</h2>
     <p>If you have questions about your order, please reach out with your order number and we will respond within 1 business day:</p>
     <ul>
@@ -37,7 +46,7 @@ include 'includes/header.php';
       <li><strong>Physical hardware:</strong> Ships within 1–2 business days via tracked carrier. Estimated delivery 3–7 business days depending on location.</li>
     </ul>
 
-    <p>For full shipping details, see our <a href="shipping.php">Shipping Policy</a>.</p>
+    <p>For full shipping details, see our <a href="shipping.php">Shipping Policy</a>. To request a return or refund, visit our <a href="refund.php">Refund Policy</a> page.</p>
 
   </div>
 </section>

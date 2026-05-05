@@ -1,6 +1,11 @@
 <?php
 require_once __DIR__ . '/config.php';
 
+// Development mode: allow crawling but prevent caching/archiving
+header('X-Robots-Tag: noarchive, nosnippet');
+header('Cache-Control: no-store, no-cache, must-revalidate');
+header('Pragma: no-cache');
+
 $current_page = basename($_SERVER['PHP_SELF'], '.php');
 
 function nav_class($page) {
@@ -19,7 +24,8 @@ function products_url($slug = '') {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo isset($page_title) ? $page_title . ' | ' . SITE_NAME : SITE_NAME . ' — ' . SITE_TAGLINE; ?></title>
   <meta name="description" content="<?php echo isset($page_desc) ? $page_desc : 'Seastar Technology is an authorized US reseller of trusted computer security software, hardware, and accessories. Genuine products delivered to your door.'; ?>">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="noarchive, nosnippet">
+  <meta name="googlebot" content="noarchive, nosnippet">
   <link rel="canonical" href="<?php echo SITE_URL . '/' . basename($_SERVER['PHP_SELF']); ?>">
   <link rel="icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
   <!-- Open Graph -->

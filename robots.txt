@@ -1,7 +1,17 @@
 User-agent: *
-Disallow: /
+Allow: /
 Disallow: /admin/
 Disallow: /includes/
 Disallow: /data/
+
+# Prevent caching/archiving — site is in active development
+X-Robots-Tag: noarchive
+
+# Block Internet Archive / Wayback Machine
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
 
 Sitemap: https://www.seastartechnology.com/sitemap.xml

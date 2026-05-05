@@ -26,10 +26,7 @@ include 'includes/header.php';
       <p>We are a retailer of consumer technology products. We do not provide standalone technical support services. License activation guidance is included with eligible software purchases to confirm your license is registered correctly.</p>
       <p>We believe in transparent pricing, honest service, and delivering genuine products to customers across the United States.</p>
       <div class="about-stats">
-        <div class="stat-item">
-          <span class="stat-num">10,000+</span>
-          <span class="stat-label">Orders Fulfilled</span>
-        </div>
+        
         <div class="stat-item">
           <span class="stat-num">25+</span>
           <span class="stat-label">Product Lines</span>

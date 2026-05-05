@@ -42,7 +42,6 @@
         <ul class="footer-links">
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>about.php">About Us</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>contact.php">Contact</a></li>
-          <li><a href="<?php echo isset($depth) ? $depth : ''; ?>contact.php#help">Help Center</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>terms.php">Terms &amp; Conditions</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>privacy.php">Privacy Policy</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>refund.php">Refund Policy</a></li>

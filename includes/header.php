@@ -27,7 +27,7 @@ function products_url($slug = '') {
   <meta name="robots" content="noarchive, nosnippet">
   <meta name="googlebot" content="noarchive, nosnippet">
   <link rel="canonical" href="<?php echo SITE_URL . '/' . basename($_SERVER['PHP_SELF']); ?>">
-  <link rel="icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://seastartechnology.com/assets/images/icons/seastar-technology-favicon.ico" type="image/x-icon">
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="<?php echo SITE_NAME; ?>">
@@ -66,7 +66,7 @@ function products_url($slug = '') {
   <div class="container header-inner">
     <a href="<?php echo isset($depth) ? $depth : ''; ?>index.php" class="logo">
       <div class="logo-icon">
-        <img src="assets/images/icons/seastartechnology-logo.png" alt="Seastar Technology Logo">
+        <img src="https://seastartechnology.com/assets/images/icons/seastar%20technology-png%201.png">
         <!-- <i class="fas fa-laptop-medical"></i> -->
     </div>
       <!-- <div class="logo-text">

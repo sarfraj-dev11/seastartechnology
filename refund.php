@@ -18,7 +18,7 @@ include 'includes/header.php';
   <li><strong>Condition:</strong> Items must be unopened and in original packaging to qualify for a full product refund.</li>
   <li><strong>Opened / defective items:</strong> If an item arrives damaged or defective, contact us within 30 days and we will arrange a replacement or full refund.</li>
   <li><strong>Return shipping:</strong> Customer is responsible for return shipping costs unless the item arrived damaged or was incorrectly shipped.</li>
-  <li><strong>Non-returnable:</strong> Items where the factory seal has been broken or that show signs of physical installation by the customer.</li>
+  <li><strong>Non-returnable:</strong> Items where the factory seal has been broken or that show signs of physical usage by the customer.</li>
 </ul>
 
 <h2>2. Digital Products (Software Licenses, Activation Codes)</h2>

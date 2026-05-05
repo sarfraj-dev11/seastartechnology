@@ -1,7 +1,7 @@
 <?php
 require_once 'includes/config.php';
 $page_title = 'Terms & Conditions';
-$page_desc  = SITE_LEGAL_NAME . ' Terms & Conditions — authorized reseller of antivirus and security software. Read our terms of sale, refund eligibility, remote installation policy, and dispute resolution.';
+$page_desc  = SITE_LEGAL_NAME . 'Terms & Conditions';
 include 'includes/header.php';
 ?>
 <section class="page-hero page-hero--sm">
@@ -26,7 +26,7 @@ include 'includes/header.php';
 <p>License activation guidance for eligible software is delivered remotely. We do not provide on-site visits or standalone technical support services.</p>
 
 <h2>2. Independent Reseller Disclaimer</h2>
-<p><?php echo SITE_LEGAL_NAME; ?> is an independent authorized reseller. We are not affiliated with, endorsed by, sponsored by, or partnered with Microsoft, Apple, Google, McAfee, Malwarebytes, Bitdefender, or any other software manufacturer or OEM unless explicitly stated. All brand names, trademarks, and product names are property of their respective owners and are used for product identification only. Selling or installing third-party software does not constitute a partnership with the manufacturer.</p>
+<p><?php echo SITE_LEGAL_NAME; ?> is an independent authorized reseller. We are not affiliated with, endorsed by, sponsored by, or partnered with Microsoft, Apple, Google, McAfee, Malwarebytes, Bitdefender, or any other software manufacturer or OEM unless explicitly stated. All brand names, trademarks, and product names are property of their respective owners and are used for product identification only. Selling software & Products does not constitute a partnership with the manufacturer.</p>
 
 <h2>3. Eligibility</h2>
 <p>By purchasing from us, you represent that you are at least 18 years of age and located within the United States.</p>

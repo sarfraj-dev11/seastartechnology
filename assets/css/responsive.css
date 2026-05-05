@@ -116,3 +116,55 @@
   body{background:#fff;color:#000}
   .policy-content p,.policy-content li{color:#333}
 }
+
+
+
+
+/* Add this to the top of your responsive.css or base.css */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+}
+
+/* Update your .main-nav in the @media (max-width:768px) section */
+@media (max-width: 768px) {
+  .main-nav {
+    position: fixed;
+    top: 0;
+    right: -280px; 
+    width: 280px;
+    height: 100vh;
+    visibility: hidden; /* Add this: keeps it from being interactable when closed */
+    opacity: 0;         /* Add this: smooth fade */
+    background: var(--bg-alt);
+    z-index: 999;
+    padding: 5rem 0rem 2rem;
+    transition: all .32s ease;
+    box-shadow: -6px 0 30px rgba(15,90,45,.12);
+    border-left: 1px solid var(--border);
+  }
+
+  /* When the menu is open */
+  .main-nav.open {
+    right: 0;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100% !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box; /* Ensures padding doesn't add to width */
+  }
+
+  .hero-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Keeps text aligned to the left */
+  }
+}

@@ -15,20 +15,31 @@
   .cta-banner-actions{justify-content:center}
 }
 
+.none{
+  display:none;
+}
+
 /* ── Mobile ≤ 768px ── */
 @media (max-width:768px){
   /* Nav */
+  .main-nav li{
+    display:block !important;
+    width:stretch;
+  }
+  .none{
+  display:block;
+}
   .hamburger{display:flex;flex-direction:column;justify-content:space-between}
   .main-nav{
     position:fixed;top:0;right:-280px;width:280px;height:100vh;
-    background:var(--bg-alt);z-index:999;padding:5rem 1.5rem 2rem;
+    background:var(--bg-alt);z-index:999;padding:5rem 0rem 2rem;
     transition:right .32s ease;
     box-shadow:-6px 0 30px rgba(15,90,45,.12);
     border-left:1px solid var(--border)
   }
   .main-nav.open{right:0}
   .main-nav ul{flex-direction:column;gap:.2rem}
-  .main-nav a{padding:.72rem 1rem;font-size:.92rem;border-radius:var(--r-sm)}
+  .main-nav a{padding:.72rem 1rem;font-size:.92rem;border-radius:var(--r-sm);display:block}
   .header-cta .btn-sm{display:none}
 
   /* Hero */

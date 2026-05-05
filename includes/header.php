@@ -81,7 +81,12 @@ function products_url($slug = '') {
         <li><a href="<?php echo isset($depth) ? $depth : ''; ?>products.php" class="<?php echo nav_class('products'); ?>">Products</a></li>
         <li><a href="<?php echo isset($depth) ? $depth : ''; ?>about.php" class="<?php echo nav_class('about'); ?>">About Us</a></li>
         <li><a href="<?php echo isset($depth) ? $depth : ''; ?>contact.php" class="<?php echo nav_class('contact'); ?>">Contact</a></li>
+        <li><a href="<?php echo isset($depth) ? $depth : ''; ?>terms.php" class="<?php echo nav_class('terms'); ?>">Terms &amp; Conditions</a></li>
+        <li><a href="<?php echo isset($depth) ? $depth : ''; ?>privacy.php" class="<?php echo nav_class('privacy'); ?>">Privacy Policy</a></li>
+        <li><a href="<?php echo isset($depth) ? $depth : ''; ?>refund.php" class="<?php echo nav_class('refund'); ?>">Refund Policy</a></li>
+        <li><a href="<?php echo isset($depth) ? $depth : ''; ?>shipping.php" class="<?php echo nav_class('shipping'); ?>">Shipping Policy</a></li>
         <li><a href="<?php echo isset($depth) ? $depth : ''; ?>contact.php#questions" class="nav-help"><i class="fas fa-circle-question"></i> Any Questions</a></li>
+     
       </ul>
     </nav>
 

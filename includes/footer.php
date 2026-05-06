@@ -44,6 +44,7 @@
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>contact.php">Contact</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>terms.php">Terms &amp; Conditions</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>privacy.php">Privacy Policy</a></li>
+          <li><a href="<?php echo isset($depth) ? $depth : ''; ?>cookiepolicy.php">Cookie Policy</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>refund.php">Refund Policy</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>shipping.php">Shipping Policy</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>order-tracking.php">Order Tracking</a></li>
@@ -78,7 +79,7 @@
   <!-- Disclaimer -->
   <div class="footer-disclaimer">
     <div class="container">
-      <p><?php echo SITE_LEGAL_NAME; ?> (<?php echo SITE_ADDRESS_FULL; ?>) is an independent authorized reseller of select consumer technology products including antivirus software, storage devices, networking hardware, printers, and peripherals. We are not affiliated with, endorsed by, or acting on behalf of any software manufacturer, technology brand, or OEM unless explicitly stated. Brand names, logos, and trademarks mentioned belong to their respective owners and are used solely for product identification. All software products are sold as-is per their respective manufacturer's terms. License activation guidance is provided as part of eligible software purchases to confirm your license is registered correctly. Prices and availability are subject to change. Software keys are refundable within 30 days only if unactivated or proven non-functional.</p>
+      <p><?php echo SITE_LEGAL_NAME; ?> (D-U-N-S #: 13-996-7974 &middot; <?php echo SITE_ADDRESS_FULL; ?>) is an independent authorized reseller of select consumer technology products including antivirus software, storage devices, networking hardware, printers, and peripherals. We are not affiliated with, endorsed by, or acting on behalf of any software manufacturer, technology brand, or OEM unless explicitly stated. Brand names, logos, and trademarks mentioned belong to their respective owners and are used solely for product identification. All software products are sold as-is per their respective manufacturer's terms. License activation guidance is provided as part of eligible software purchases to confirm your license is registered correctly. Prices and availability are subject to change. Software keys are refundable within 30 days only if unactivated or proven non-functional.</p>
       <p>Opt-Out: To stop receiving communications, call <a href="tel:<?php echo SITE_PHONE_RAW; ?>"><?php echo SITE_PHONE; ?></a> or email <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a>.</p>
     </div>
   </div>
@@ -86,9 +87,10 @@
   <!-- Footer Bottom -->
   <div class="footer-bottom">
     <div class="container footer-bottom-inner">
-      <p>&copy; <?php echo date('Y'); ?> <?php echo SITE_LEGAL_NAME; ?> dba <?php echo SITE_NAME; ?>. All rights reserved. Authorized reseller — not affiliated with or endorsed by manufacturers.</p>
+      <p>&copy; <?php echo date('Y'); ?> <?php echo SITE_LEGAL_NAME; ?> dba <?php echo SITE_NAME; ?>. D-U-N-S #: 13-996-7974. All rights reserved. Authorized reseller — not affiliated with or endorsed by manufacturers.</p>
       <div class="footer-bottom-links">
         <a href="<?php echo isset($depth) ? $depth : ''; ?>privacy.php">Privacy</a>
+        <a href="<?php echo isset($depth) ? $depth : ''; ?>cookiepolicy.php">Cookies</a>
         <a href="<?php echo isset($depth) ? $depth : ''; ?>terms.php">Terms</a>
         <a href="<?php echo isset($depth) ? $depth : ''; ?>refund.php">Refunds</a>
         <a href="<?php echo isset($depth) ? $depth : ''; ?>shipping.php">Shipping</a>

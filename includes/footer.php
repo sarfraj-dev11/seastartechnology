@@ -44,6 +44,7 @@
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>contact.php">Contact</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>terms.php">Terms &amp; Conditions</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>privacy.php">Privacy Policy</a></li>
+          <li><a href="<?php echo isset($depth) ? $depth : ''; ?>cookiepolicy.php">Cookie Policy</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>refund.php">Refund Policy</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>shipping.php">Shipping Policy</a></li>
           <li><a href="<?php echo isset($depth) ? $depth : ''; ?>order-tracking.php">Order Tracking</a></li>
@@ -89,6 +90,7 @@
       <p>&copy; <?php echo date('Y'); ?> <?php echo SITE_LEGAL_NAME; ?> dba <?php echo SITE_NAME; ?>. All rights reserved. Authorized reseller — not affiliated with or endorsed by manufacturers.</p>
       <div class="footer-bottom-links">
         <a href="<?php echo isset($depth) ? $depth : ''; ?>privacy.php">Privacy</a>
+        <a href="<?php echo isset($depth) ? $depth : ''; ?>cookiepolicy.php">Cookies</a>
         <a href="<?php echo isset($depth) ? $depth : ''; ?>terms.php">Terms</a>
         <a href="<?php echo isset($depth) ? $depth : ''; ?>refund.php">Refunds</a>
         <a href="<?php echo isset($depth) ? $depth : ''; ?>shipping.php">Shipping</a>

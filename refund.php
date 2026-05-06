@@ -9,7 +9,7 @@ include 'includes/header.php';
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <section class="page-hero page-hero--sm">
-  <div class="container"><h1>Refund Policy</h1><p>Last Updated: May 6, 2025</p></div>
+  <div class="container"><h1>Refund Policy</h1><p>Last Updated: April 1, 2026</p></div>
 </section>
 <section class="section policy-section">
 <div class="container policy-content">

@@ -240,7 +240,7 @@ $display_images = array_slice($promo_images, 0, 3);
       </div>
       <div class="usp-card usp-card--highlight">
         <div class="usp-icon"><i class="fas fa-headset"></i></div>
-        <h3>Product Activation Help</h3>
+        <h3>Product Activation Guidance</h3>
         <p>One-time activation guidance is included with eligible software purchases to confirm your license is registered correctly.</p>
         <div class="usp-highlight-badge">Included</div>
       </div>

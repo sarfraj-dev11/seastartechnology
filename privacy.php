@@ -4,6 +4,10 @@ $page_title = 'Privacy Policy';
 $page_desc  = SITE_LEGAL_NAME . ' Privacy Policy — how we collect, use, and protect your personal information.';
 include 'includes/header.php';
 ?>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJT36XWT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <section class="page-hero page-hero--sm">
   <div class="container">
     <h1>Privacy Policy</h1>
@@ -19,7 +23,7 @@ include 'includes/header.php';
 <p>By using this website ("Site") operated by <?php echo SITE_LEGAL_NAME; ?> ("we," "us," "our"), you agree to this Privacy Policy. If you do not agree, do not use the Site. We may update this policy; continued use after changes constitutes acceptance.</p>
 
 <h2>2. Who We Are</h2>
-<p><?php echo SITE_LEGAL_NAME; ?> is a U.S.-registered independent authorized reseller of select antivirus and security software products. We are not affiliated with, endorsed by, or acting on behalf of any software manufacturer, technology brand, or OEM unless explicitly stated. All brand names referenced are property of their respective owners, used for product identification only.</p>
+<p><?php echo SITE_LEGAL_NAME; ?> is a U.S.-registered independent authorized reseller of select consumer technology products. We are not affiliated with, endorsed by, or acting on behalf of any software manufacturer, technology brand, or OEM unless explicitly stated. All brand names referenced are property of their respective owners, used for product identification only.</p>
 
 <h2>3. Age Restriction</h2>
 <p>This Site is intended for individuals 18 years or older within the United States. We do not knowingly collect information from anyone under 18. If you believe a minor has submitted information, contact <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a> and we will delete it promptly.</p>

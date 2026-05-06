@@ -1,17 +1,29 @@
 User-agent: *
-Allow: /
-Disallow: /admin/
-Disallow: /includes/
-Disallow: /data/
 
-# Prevent caching/archiving — site is in active development
+ Allow: /
+
+ Disallow: /admin/
+
+ Disallow: /includes/
+
+ Disallow: /data/
+ 
+User-agent: AdsBot-Google
+
+ Allow: /
+ 
+User-agent: Googlebot
+
+ Allow: /
+ 
 X-Robots-Tag: noarchive
-
-# Block Internet Archive / Wayback Machine
+ 
 User-agent: ia_archiver
-Disallow: /
 
+ Disallow: /
+ 
 User-agent: archive.org_bot
-Disallow: /
 
+ Disallow: /
+ 
 Sitemap: https://www.seastartechnology.com/sitemap.xml

@@ -31,7 +31,10 @@ $extra_head = '<script type="application/ld+json">' . json_encode([
 ]) . '</script>';
 include 'includes/header.php';
 ?>
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJT36XWT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <section class="page-hero page-hero--sm">
   <div class="container breadcrumb-bar">
     <a href="index.php">Home</a> <i class="fas fa-chevron-right"></i>

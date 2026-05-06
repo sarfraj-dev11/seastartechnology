@@ -4,7 +4,10 @@ $page_title = 'About Us';
 $page_desc  = 'SEASTAR TECHNOLOGIES LLC is a U.S.-registered authorized reseller of leading consumer technology products including antivirus software, hardware, and accessories, located in Tampa, Florida.';
 include 'includes/header.php';
 ?>
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJT36XWT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <section class="page-hero">
   <div class="container">
     <div class="page-hero-content">
@@ -26,10 +29,7 @@ include 'includes/header.php';
       <p>We are a retailer of consumer technology products. We do not provide standalone technical support services. License activation guidance is included with eligible software purchases to confirm your license is registered correctly.</p>
       <p>We believe in transparent pricing, honest service, and delivering genuine products to customers across the United States.</p>
       <div class="about-stats">
-        <div class="stat-item">
-          <span class="stat-num">10,000+</span>
-          <span class="stat-label">Orders Fulfilled</span>
-        </div>
+        
         <div class="stat-item">
           <span class="stat-num">25+</span>
           <span class="stat-label">Product Lines</span>
@@ -72,14 +72,14 @@ include 'includes/header.php';
       </div>
       <div class="usp-card usp-card--highlight">
         <div class="usp-icon"><i class="fas fa-headset"></i></div>
-        <h3>Product Activation Help</h3>
+        <h3>Product Activation Guidance</h3>
         <p>One-time activation guidance is included with eligible software purchases to confirm your license is registered correctly.</p>
         <div class="usp-highlight-badge">Included</div>
       </div>
       <div class="usp-card">
         <div class="usp-icon"><i class="fas fa-handshake"></i></div>
         <h3>Honest, Transparent Pricing</h3>
-        <p>No hidden fees. The price you see is what you pay. Software renewals often 20–30% below manufacturer retail.</p>
+        <p>No hidden fees. The price you see is what you pay — with competitive rates on renewals and bundles across our full product catalog.</p>
       </div>
     </div>
   </div>

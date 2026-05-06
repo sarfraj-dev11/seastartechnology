@@ -8,7 +8,10 @@ $featured   = get_featured_products(6);
 
 include 'includes/header.php';
 ?>
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJT36XWT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <!-- ═══════════════════════════════════════════════
      HERO SECTION
 ═══════════════════════════════════════════════ -->
@@ -43,7 +46,7 @@ include 'includes/header.php';
         <span><i class="fas fa-lock"></i> Secure Checkout</span>
         <span><i class="fas fa-rotate-left"></i> 30-Day Returns</span>
         <span><i class="fas fa-truck-fast"></i> Fast Shipping</span>
-        <span><i class="fas fa-headset"></i> Activation Help Included</span>
+        <span><i class="fas fa-headset"></i> Activation Guidance Included</span>
       </div>
     </div>
     <div class="hero-visual">
@@ -68,6 +71,106 @@ include 'includes/header.php';
     </div>
   </div>
 </section>
+
+
+
+
+
+
+
+
+
+<?php
+// 1. Fetch JSON Data
+$json_path = DATA_PATH;
+$summer_deals = [];
+
+if (file_exists($json_path)) {
+    $json_content = file_get_contents($json_path);
+    $all_products = json_decode($json_content, true);
+    $promo_ids = [5, 6, 7, 14];
+    
+    if (is_array($all_products)) {
+        $summer_deals = array_filter($all_products, function($p) use ($promo_ids) {
+            return isset($p['id']) && in_array((int)$p['id'], $promo_ids);
+        });
+    }
+}
+
+// Extract images for the marquee
+$promo_images = [];
+foreach ($summer_deals as $p) {
+    if (!empty($p['image'])) {
+        $promo_images[] = $p['image'];
+    }
+}
+// Grab up to 4 images
+$display_images = array_slice($promo_images, 0, 3);
+?>
+
+<section class="sst-mega-promo-section">
+    <div class="container">
+        <a href="https://seastartechnology.com/products.php" class="sst-mega-banner">
+
+            <div class="sst-mega-content-layer">
+                
+                <!-- Left: Aggressive Sales Copy -->
+                <div class="sst-mega-text">
+                    <div class="sst-urgency-pill">
+                        <span class="sst-blink-dot"></span> Ending Soon
+                    </div>
+                    <h2 class="sst-mega-title">THE SUMMER<br><span class="sst-highlight">CYBER EVENT</span></h2>
+                    
+                    <div class="sst-mega-action-area">
+                        <div class="sst-mega-cta">
+                            Use Code (SUMMER2023) <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </div>
+                        <div class="sst-tc-text">*T&C Apply</div>
+                    </div>
+                </div>
+
+                <!-- Right: Infinite Image Marquee -->
+                <div class="sst-mega-visuals">
+                    <div class="sst-image-marquee">
+                        <div class="sst-image-track">
+                            
+                            <!-- Group 1 (Original Images) -->
+                            <?php if (!empty($display_images)): ?>
+                                <?php foreach ($display_images as $img): ?>
+                                    <div class="sst-marquee-item">
+                                        <img src="<?php echo htmlspecialchars($img); ?>" alt="Sale Product" onerror="this.style.display='none'">
+                                    </div>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
+                            
+                            <!-- Group 2 (Duplicated for seamless infinite loop) -->
+                            <?php if (!empty($display_images)): ?>
+                                <?php foreach ($display_images as $img): ?>
+                                    <div class="sst-marquee-item">
+                                        <img src="<?php echo htmlspecialchars($img); ?>" alt="Sale Product" onerror="this.style.display='none'">
+                                    </div>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
+                            
+                        </div>
+                    </div>
+                    
+                    <!-- Floating Discount Sticker -->
+                    <div class="sst-discount-sticker">
+                        <div class="sst-sticker-text">UP TO<br><strong>50%</strong><br>OFF</div>
+                    </div>
+                </div>
+
+            </div>
+        </a>
+    </div>
+</section>
+
+
+
+
+
+
 
 <!-- ═══════════════════════════════════════════════
      FEATURED PRODUCTS
@@ -158,7 +261,7 @@ include 'includes/header.php';
       </div>
       <div class="usp-card">
         <div class="usp-icon"><i class="fas fa-star"></i></div>
-        <h3>Trusted by Thousands</h3>
+        <h3>US-Based & Registered</h3>
         <p>Serving customers across the United States with genuine products and excellent service.</p>
       </div>
     </div>

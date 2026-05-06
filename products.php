@@ -8,6 +8,10 @@ $categories   = get_categories();
 $active_cat   = isset($_GET['cat']) ? urldecode($_GET['cat']) : 'All';
 include 'includes/header.php';
 ?>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJT36XWT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <section class="page-hero page-hero--sm">
   <div class="container">
     <h1>Products &amp; Services</h1>

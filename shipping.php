@@ -4,8 +4,12 @@ $page_title = 'Shipping Policy';
 $page_desc  = 'Seastar Technology Shipping Policy — digital delivery within 24 hours, physical hardware ships in 1-2 business days from our US warehouse.';
 include 'includes/header.php';
 ?>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJT36XWT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <section class="page-hero page-hero--sm">
-  <div class="container"><h1>Shipping Policy</h1><p>Last Updated: January 1, 2025</p></div>
+  <div class="container"><h1>Shipping Policy</h1><p>Last Updated: May 6, 2025</p></div>
 </section>
 <section class="section policy-section">
 <div class="container policy-content">

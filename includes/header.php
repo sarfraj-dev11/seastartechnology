@@ -20,11 +20,20 @@ function products_url($slug = '') {
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KJT36XWT');</script>
+<!-- End Google Tag Manager -->
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo isset($page_title) ? $page_title . ' | ' . SITE_NAME : SITE_NAME . ' — ' . SITE_TAGLINE; ?></title>
   <meta name="description" content="<?php echo isset($page_desc) ? $page_desc : 'Seastar Technology is an authorized US reseller of trusted computer security software, hardware, and accessories. Genuine products delivered to your door.'; ?>">
-  <meta name="robots" content="noarchive, nosnippet">
+  <meta name="robots" content="noindex, nofollow">
   <meta name="googlebot" content="noarchive, nosnippet">
   <link rel="canonical" href="<?php echo SITE_URL . '/' . basename($_SERVER['PHP_SELF']); ?>">
   <link rel="icon" href="https://seastartechnology.com/assets/images/icons/seastar-technology-favicon.ico" type="image/x-icon">

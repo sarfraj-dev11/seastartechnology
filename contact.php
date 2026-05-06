@@ -9,6 +9,10 @@ $products   = get_all_products();
 $preset_product = isset($_GET['product']) ? htmlspecialchars(urldecode($_GET['product'])) : '';
 include 'includes/header.php';
 ?>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJT36XWT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <section class="page-hero">
   <div class="container">

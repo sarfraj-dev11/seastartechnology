@@ -4,6 +4,10 @@ $page_title = 'Refund Policy';
 $page_desc  = 'Seastar Technology Refund Policy — 30-day returns on physical products and software key issues.';
 include 'includes/header.php';
 ?>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJT36XWT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <section class="page-hero page-hero--sm">
   <div class="container"><h1>Refund Policy</h1><p>Last Updated: May 6, 2025</p></div>
 </section>

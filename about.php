@@ -4,7 +4,10 @@ $page_title = 'About Us';
 $page_desc  = 'SEASTAR TECHNOLOGIES LLC is a U.S.-registered authorized reseller of leading consumer technology products including antivirus software, hardware, and accessories, located in Tampa, Florida.';
 include 'includes/header.php';
 ?>
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJT36XWT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <section class="page-hero">
   <div class="container">
     <div class="page-hero-content">

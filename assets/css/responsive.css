@@ -21,6 +21,12 @@
 
 /* ── Mobile ≤ 768px ── */
 @media (max-width:768px){
+  /* Sticky header */
+  .site-header{position:-webkit-sticky;position:sticky;top:0;z-index:1000}
+  .site-header .header-inner{padding:.5rem 1rem}
+  .logo-icon{width:130px;height:34px}
+  .top-bar-support{display:none}
+
   /* Nav */
   .main-nav li{
     display:block !important;
@@ -103,6 +109,7 @@
   .hero-title{font-size:1.55rem}
   .about-card-grid{grid-template-columns:1fr}
   .top-bar-text{display:none}
+  .top-bar-support{display:none}
   .top-bar-inner{justify-content:center}
   .btn-lg{padding:.65rem 1.2rem;font-size:.855rem}
   .product-detail-grid{gap:1.4rem}

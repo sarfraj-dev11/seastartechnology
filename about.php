@@ -24,7 +24,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="about-content">
       <div class="section-badge">Our Story</div>
       <h2 class="section-title">US-Based Authorized Technology Reseller</h2>
-      <p>SEASTAR TECHNOLOGIES LLC is a U.S.-registered authorized reseller of leading consumer technology products — including antivirus software, storage devices, networking hardware, printers, and peripherals — located in Tampa, Florida.</p>
+      <p>SEASTAR TECHNOLOGIES LLC (D-U-N-S #: 13-996-7974) is a U.S.-registered authorized reseller of leading consumer technology products — including antivirus software, storage devices, networking hardware, printers, and peripherals — located in Tampa, Florida.</p>
       <p>We are an independent reseller — not affiliated with, endorsed by, or representing any software manufacturer or OEM unless explicitly stated. Brand names and trademarks belong to their respective owners and are used solely for product identification.</p>
       <p>We are a retailer of consumer technology products. We do not provide standalone technical support services. License activation guidance is included with eligible software purchases to confirm your license is registered correctly.</p>
       <p>We believe in transparent pricing, honest service, and delivering genuine products to customers across the United States.</p>
@@ -37,6 +37,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="stat-item">
           <span class="stat-num">12+</span>
           <span class="stat-label">Trusted Brands</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">D-U-N-S</span>
+          <span class="stat-label">Verified Business #13-996-7974</span>
         </div>
       </div>
     </div>

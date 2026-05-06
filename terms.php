@@ -7,7 +7,7 @@ include 'includes/header.php';
 <section class="page-hero page-hero--sm">
   <div class="container">
     <h1>Terms &amp; Conditions</h1>
-    <p>Last Updated: April 29, 2025</p>
+    <p>Last Updated: May 6, 2025</p>
   </div>
 </section>
 <section class="section policy-section">

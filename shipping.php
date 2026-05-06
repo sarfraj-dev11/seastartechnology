@@ -5,7 +5,7 @@ $page_desc  = 'Seastar Technology Shipping Policy — digital delivery within 24
 include 'includes/header.php';
 ?>
 <section class="page-hero page-hero--sm">
-  <div class="container"><h1>Shipping Policy</h1><p>Last Updated: January 1, 2025</p></div>
+  <div class="container"><h1>Shipping Policy</h1><p>Last Updated: May 6, 2025</p></div>
 </section>
 <section class="section policy-section">
 <div class="container policy-content">

@@ -5,7 +5,7 @@ $page_desc  = 'Seastar Technology Refund Policy — 30-day returns on physical p
 include 'includes/header.php';
 ?>
 <section class="page-hero page-hero--sm">
-  <div class="container"><h1>Refund Policy</h1><p>Last Updated: January 1, 2025</p></div>
+  <div class="container"><h1>Refund Policy</h1><p>Last Updated: May 6, 2025</p></div>
 </section>
 <section class="section policy-section">
 <div class="container policy-content">
